@@ -2,10 +2,10 @@ from django.core.management.base import BaseCommand
 from django.core.management import call_command
 
 fixtures = [
-    "standards_relations/nace_relations.yaml",
-    "standards_relations/ateco_relations.yaml",
-    "standards_relations/gics_relations.yaml",
-    "standards_relations/isic_relations.yaml",
+    "nace_relations.yaml",
+    "ateco_relations.yaml",
+    "gics_relations.yaml",
+    "isic_relations.yaml",
 ]
 
 

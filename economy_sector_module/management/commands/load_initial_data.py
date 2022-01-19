@@ -2,10 +2,10 @@ from django.core.management.base import BaseCommand
 from django.core.management import call_command
 
 fixtures = [
-    "initial_data/nace_standard.yaml",
-    "initial_data/ateco_standard.yaml",
-    "initial_data/gics_standard.yaml",
-    "initial_data/isic_standard.yaml",
+    "nace_standard.yaml",
+    "ateco_standard.yaml",
+    "gics_standard.yaml",
+    "isic_standard.yaml",
 ]
 
 
