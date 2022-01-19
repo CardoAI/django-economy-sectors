@@ -1,3 +1,5 @@
+from django.core.exceptions import ObjectDoesNotExist
+from django.db.models import QuerySet
 from model_utils import Choices
 
 STANDARDS = Choices(
@@ -10,3 +12,9 @@ STANDARDS = Choices(
     (6, "sic", "SIC"),  # Todo-fill the data
     (7, "sae", "SAE"),  # Todo-fill the data
 )
+
+def get_or_none(queryset: QuerySet, *args, **kwargs):
+    try:
+        return queryset.get(*args, **kwargs)
+    except ObjectDoesNotExist:
+        return None
