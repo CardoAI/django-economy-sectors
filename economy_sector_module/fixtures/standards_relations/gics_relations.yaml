@@ -1,0 +1,2520 @@
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11084
+  fields:
+    from_sector_id: 4137
+    to_standard: 2
+    to_sector_id: 1212
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11085
+  fields:
+    from_sector_id: 4138
+    to_standard: 2
+    to_sector_id: 1211
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11086
+  fields:
+    from_sector_id: 4140
+    to_standard: 2
+    to_sector_id: 1164
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11087
+  fields:
+    from_sector_id: 4143
+    to_standard: 2
+    to_sector_id: 1528
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11088
+  fields:
+    from_sector_id: 4145
+    to_standard: 2
+    to_sector_id: 1163
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11089
+  fields:
+    from_sector_id: 4148
+    to_standard: 2
+    to_sector_id: 1203
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11090
+  fields:
+    from_sector_id: 4149
+    to_standard: 2
+    to_sector_id: 1203
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11091
+  fields:
+    from_sector_id: 4150
+    to_standard: 2
+    to_sector_id: 1559
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11092
+  fields:
+    from_sector_id: 4151
+    to_standard: 2
+    to_sector_id: 1565
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11093
+  fields:
+    from_sector_id: 4154
+    to_standard: 2
+    to_sector_id: 1654
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11094
+  fields:
+    from_sector_id: 4155
+    to_standard: 2
+    to_sector_id: 1654
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11095
+  fields:
+    from_sector_id: 4156
+    to_standard: 2
+    to_sector_id: 1769
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11096
+  fields:
+    from_sector_id: 4158
+    to_standard: 2
+    to_sector_id: 1769
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11097
+  fields:
+    from_sector_id: 4159
+    to_standard: 2
+    to_sector_id: 1185
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11098
+  fields:
+    from_sector_id: 4161
+    to_standard: 2
+    to_sector_id: 1190
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11099
+  fields:
+    from_sector_id: 4163
+    to_standard: 2
+    to_sector_id: 1185
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11100
+  fields:
+    from_sector_id: 4164
+    to_standard: 2
+    to_sector_id: 1197
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11101
+  fields:
+    from_sector_id: 4166
+    to_standard: 2
+    to_sector_id: 1744
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11102
+  fields:
+    from_sector_id: 4167
+    to_standard: 2
+    to_sector_id: 1127
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11103
+  fields:
+    from_sector_id: 4168
+    to_standard: 2
+    to_sector_id: 1126
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11104
+  fields:
+    from_sector_id: 4169
+    to_standard: 2
+    to_sector_id: 1481
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11105
+  fields:
+    from_sector_id: 4172
+    to_standard: 2
+    to_sector_id: 1822
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11106
+  fields:
+    from_sector_id: 4173
+    to_standard: 2
+    to_sector_id: 1821
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11107
+  fields:
+    from_sector_id: 4176
+    to_standard: 2
+    to_sector_id: 2389
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11108
+  fields:
+    from_sector_id: 4177
+    to_standard: 2
+    to_sector_id: 2389
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11109
+  fields:
+    from_sector_id: 4178
+    to_standard: 2
+    to_sector_id: 1919
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11110
+  fields:
+    from_sector_id: 4179
+    to_standard: 2
+    to_sector_id: 1918
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11111
+  fields:
+    from_sector_id: 4180
+    to_standard: 2
+    to_sector_id: 1974
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11112
+  fields:
+    from_sector_id: 4181
+    to_standard: 2
+    to_sector_id: 3367
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11113
+  fields:
+    from_sector_id: 4182
+    to_standard: 2
+    to_sector_id: 3366
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11114
+  fields:
+    from_sector_id: 4183
+    to_standard: 2
+    to_sector_id: 1802
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11115
+  fields:
+    from_sector_id: 4184
+    to_standard: 2
+    to_sector_id: 2274
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11116
+  fields:
+    from_sector_id: 4186
+    to_standard: 2
+    to_sector_id: 1802
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11117
+  fields:
+    from_sector_id: 4187
+    to_standard: 2
+    to_sector_id: 3647
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11118
+  fields:
+    from_sector_id: 4188
+    to_standard: 2
+    to_sector_id: 3646
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11119
+  fields:
+    from_sector_id: 4190
+    to_standard: 2
+    to_sector_id: 1506
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11120
+  fields:
+    from_sector_id: 4191
+    to_standard: 2
+    to_sector_id: 1506
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11121
+  fields:
+    from_sector_id: 4192
+    to_standard: 2
+    to_sector_id: 2344
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11122
+  fields:
+    from_sector_id: 4193
+    to_standard: 2
+    to_sector_id: 3716
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11123
+  fields:
+    from_sector_id: 4194
+    to_standard: 2
+    to_sector_id: 3127
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11124
+  fields:
+    from_sector_id: 4195
+    to_standard: 2
+    to_sector_id: 3679
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11125
+  fields:
+    from_sector_id: 4196
+    to_standard: 2
+    to_sector_id: 3318
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11126
+  fields:
+    from_sector_id: 4197
+    to_standard: 2
+    to_sector_id: 3651
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11127
+  fields:
+    from_sector_id: 4198
+    to_standard: 2
+    to_sector_id: 3318
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11128
+  fields:
+    from_sector_id: 4200
+    to_standard: 2
+    to_sector_id: 3173
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11129
+  fields:
+    from_sector_id: 4201
+    to_standard: 2
+    to_sector_id: 3172
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11130
+  fields:
+    from_sector_id: 4202
+    to_standard: 2
+    to_sector_id: 3114
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11131
+  fields:
+    from_sector_id: 4203
+    to_standard: 2
+    to_sector_id: 3113
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11132
+  fields:
+    from_sector_id: 4204
+    to_standard: 2
+    to_sector_id: 3097
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11133
+  fields:
+    from_sector_id: 4205
+    to_standard: 2
+    to_sector_id: 3096
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11134
+  fields:
+    from_sector_id: 4206
+    to_standard: 2
+    to_sector_id: 3062
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11135
+  fields:
+    from_sector_id: 4207
+    to_standard: 2
+    to_sector_id: 3061
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11136
+  fields:
+    from_sector_id: 4208
+    to_standard: 2
+    to_sector_id: 3083
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11137
+  fields:
+    from_sector_id: 4209
+    to_standard: 2
+    to_sector_id: 2359
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11138
+  fields:
+    from_sector_id: 4211
+    to_standard: 2
+    to_sector_id: 3070
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11139
+  fields:
+    from_sector_id: 4212
+    to_standard: 2
+    to_sector_id: 2359
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11140
+  fields:
+    from_sector_id: 4215
+    to_standard: 2
+    to_sector_id: 1626
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11141
+  fields:
+    from_sector_id: 4217
+    to_standard: 2
+    to_sector_id: 1626
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11142
+  fields:
+    from_sector_id: 4218
+    to_standard: 2
+    to_sector_id: 2089
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11143
+  fields:
+    from_sector_id: 4219
+    to_standard: 2
+    to_sector_id: 2089
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11144
+  fields:
+    from_sector_id: 4220
+    to_standard: 2
+    to_sector_id: 2127
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11145
+  fields:
+    from_sector_id: 4222
+    to_standard: 2
+    to_sector_id: 1898
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11146
+  fields:
+    from_sector_id: 4225
+    to_standard: 2
+    to_sector_id: 2229
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11147
+  fields:
+    from_sector_id: 4226
+    to_standard: 2
+    to_sector_id: 1897
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11148
+  fields:
+    from_sector_id: 4228
+    to_standard: 2
+    to_sector_id: 2185
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11149
+  fields:
+    from_sector_id: 4229
+    to_standard: 2
+    to_sector_id: 2184
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11150
+  fields:
+    from_sector_id: 4230
+    to_standard: 2
+    to_sector_id: 1359
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11151
+  fields:
+    from_sector_id: 4231
+    to_standard: 2
+    to_sector_id: 1427
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11152
+  fields:
+    from_sector_id: 4232
+    to_standard: 2
+    to_sector_id: 1442
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11153
+  fields:
+    from_sector_id: 4233
+    to_standard: 2
+    to_sector_id: 1358
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11154
+  fields:
+    from_sector_id: 4235
+    to_standard: 2
+    to_sector_id: 2283
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11155
+  fields:
+    from_sector_id: 4236
+    to_standard: 2
+    to_sector_id: 3972
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11156
+  fields:
+    from_sector_id: 4237
+    to_standard: 2
+    to_sector_id: 3182
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11157
+  fields:
+    from_sector_id: 4238
+    to_standard: 2
+    to_sector_id: 2283
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11158
+  fields:
+    from_sector_id: 4239
+    to_standard: 2
+    to_sector_id: 3210
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11159
+  fields:
+    from_sector_id: 4240
+    to_standard: 2
+    to_sector_id: 2230
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11160
+  fields:
+    from_sector_id: 4241
+    to_standard: 2
+    to_sector_id: 3815
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11161
+  fields:
+    from_sector_id: 4242
+    to_standard: 2
+    to_sector_id: 2230
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11162
+  fields:
+    from_sector_id: 4244
+    to_standard: 2
+    to_sector_id: 2472
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11163
+  fields:
+    from_sector_id: 4245
+    to_standard: 2
+    to_sector_id: 2472
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11164
+  fields:
+    from_sector_id: 4246
+    to_standard: 2
+    to_sector_id: 3034
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11165
+  fields:
+    from_sector_id: 4251
+    to_standard: 2
+    to_sector_id: 2263
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11166
+  fields:
+    from_sector_id: 4252
+    to_standard: 2
+    to_sector_id: 2956
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11167
+  fields:
+    from_sector_id: 4253
+    to_standard: 2
+    to_sector_id: 2263
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11168
+  fields:
+    from_sector_id: 4254
+    to_standard: 2
+    to_sector_id: 2901
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11169
+  fields:
+    from_sector_id: 4255
+    to_standard: 2
+    to_sector_id: 2869
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11170
+  fields:
+    from_sector_id: 4256
+    to_standard: 2
+    to_sector_id: 2881
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11171
+  fields:
+    from_sector_id: 4257
+    to_standard: 2
+    to_sector_id: 2910
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11172
+  fields:
+    from_sector_id: 4260
+    to_standard: 2
+    to_sector_id: 2612
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11173
+  fields:
+    from_sector_id: 4261
+    to_standard: 2
+    to_sector_id: 2972
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11174
+  fields:
+    from_sector_id: 4262
+    to_standard: 2
+    to_sector_id: 2612
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11175
+  fields:
+    from_sector_id: 4263
+    to_standard: 2
+    to_sector_id: 2832
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11176
+  fields:
+    from_sector_id: 4266
+    to_standard: 2
+    to_sector_id: 1329
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11177
+  fields:
+    from_sector_id: 4268
+    to_standard: 2
+    to_sector_id: 1329
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11178
+  fields:
+    from_sector_id: 4269
+    to_standard: 2
+    to_sector_id: 1349
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11179
+  fields:
+    from_sector_id: 4270
+    to_standard: 2
+    to_sector_id: 1000
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11180
+  fields:
+    from_sector_id: 4271
+    to_standard: 2
+    to_sector_id: 1000
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11181
+  fields:
+    from_sector_id: 4272
+    to_standard: 2
+    to_sector_id: 1223
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11182
+  fields:
+    from_sector_id: 4276
+    to_standard: 2
+    to_sector_id: 1574
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11183
+  fields:
+    from_sector_id: 4277
+    to_standard: 2
+    to_sector_id: 1574
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11184
+  fields:
+    from_sector_id: 4278
+    to_standard: 2
+    to_sector_id: 3738
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11185
+  fields:
+    from_sector_id: 4279
+    to_standard: 2
+    to_sector_id: 3738
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11186
+  fields:
+    from_sector_id: 4285
+    to_standard: 2
+    to_sector_id: 3870
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11187
+  fields:
+    from_sector_id: 4287
+    to_standard: 2
+    to_sector_id: 3880
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11188
+  fields:
+    from_sector_id: 4288
+    to_standard: 2
+    to_sector_id: 3869
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11189
+  fields:
+    from_sector_id: 4297
+    to_standard: 2
+    to_sector_id: 3523
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11190
+  fields:
+    from_sector_id: 4298
+    to_standard: 2
+    to_sector_id: 3522
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11191
+  fields:
+    from_sector_id: 4301
+    to_standard: 2
+    to_sector_id: 3357
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11192
+  fields:
+    from_sector_id: 4302
+    to_standard: 2
+    to_sector_id: 3357
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11193
+  fields:
+    from_sector_id: 4307
+    to_standard: 2
+    to_sector_id: 3384
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11194
+  fields:
+    from_sector_id: 4310
+    to_standard: 2
+    to_sector_id: 3384
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11195
+  fields:
+    from_sector_id: 4311
+    to_standard: 2
+    to_sector_id: 3377
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11196
+  fields:
+    from_sector_id: 4312
+    to_standard: 2
+    to_sector_id: 3377
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11197
+  fields:
+    from_sector_id: 4313
+    to_standard: 2
+    to_sector_id: 3371
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11198
+  fields:
+    from_sector_id: 4314
+    to_standard: 2
+    to_sector_id: 3409
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11199
+  fields:
+    from_sector_id: 4315
+    to_standard: 2
+    to_sector_id: 3422
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11200
+  fields:
+    from_sector_id: 4316
+    to_standard: 2
+    to_sector_id: 3370
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11201
+  fields:
+    from_sector_id: 4321
+    to_standard: 2
+    to_sector_id: 3399
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11202
+  fields:
+    from_sector_id: 4322
+    to_standard: 2
+    to_sector_id: 3441
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11203
+  fields:
+    from_sector_id: 4323
+    to_standard: 2
+    to_sector_id: 3399
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11204
+  fields:
+    from_sector_id: 4324
+    to_standard: 2
+    to_sector_id: 3447
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11205
+  fields:
+    from_sector_id: 4325
+    to_standard: 2
+    to_sector_id: 3438
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11206
+  fields:
+    from_sector_id: 4326
+    to_standard: 2
+    to_sector_id: 3405
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11207
+  fields:
+    from_sector_id: 4329
+    to_standard: 2
+    to_sector_id: 3333
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11208
+  fields:
+    from_sector_id: 4330
+    to_standard: 2
+    to_sector_id: 3333
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11209
+  fields:
+    from_sector_id: 4337
+    to_standard: 2
+    to_sector_id: 1891
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11210
+  fields:
+    from_sector_id: 4338
+    to_standard: 2
+    to_sector_id: 1890
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11211
+  fields:
+    from_sector_id: 4339
+    to_standard: 2
+    to_sector_id: 1519
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11212
+  fields:
+    from_sector_id: 4340
+    to_standard: 2
+    to_sector_id: 1518
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11213
+  fields:
+    from_sector_id: 4341
+    to_standard: 2
+    to_sector_id: 1879
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11214
+  fields:
+    from_sector_id: 4342
+    to_standard: 2
+    to_sector_id: 1909
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11215
+  fields:
+    from_sector_id: 4343
+    to_standard: 2
+    to_sector_id: 1879
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11216
+  fields:
+    from_sector_id: 4344
+    to_standard: 2
+    to_sector_id: 1886
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11217
+  fields:
+    from_sector_id: 4345
+    to_standard: 2
+    to_sector_id: 2513
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11218
+  fields:
+    from_sector_id: 4372
+    to_standard: 2
+    to_sector_id: 2318
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11219
+  fields:
+    from_sector_id: 4373
+    to_standard: 2
+    to_sector_id: 2318
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11220
+  fields:
+    from_sector_id: 4376
+    to_standard: 2
+    to_sector_id: 2328
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11221
+  fields:
+    from_sector_id: 4377
+    to_standard: 2
+    to_sector_id: 2327
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11222
+  fields:
+    from_sector_id: 4378
+    to_standard: 2
+    to_sector_id: 2305
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11223
+  fields:
+    from_sector_id: 4379
+    to_standard: 2
+    to_sector_id: 2305
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11224
+  fields:
+    from_sector_id: 4137
+    to_standard: 4
+    to_sector_id: 4479
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11225
+  fields:
+    from_sector_id: 4138
+    to_standard: 4
+    to_sector_id: 4479
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11226
+  fields:
+    from_sector_id: 4140
+    to_standard: 4
+    to_sector_id: 4457
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11227
+  fields:
+    from_sector_id: 4143
+    to_standard: 4
+    to_sector_id: 4562
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11228
+  fields:
+    from_sector_id: 4145
+    to_standard: 4
+    to_sector_id: 4457
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11229
+  fields:
+    from_sector_id: 4148
+    to_standard: 4
+    to_sector_id: 4475
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11230
+  fields:
+    from_sector_id: 4149
+    to_standard: 4
+    to_sector_id: 4475
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11231
+  fields:
+    from_sector_id: 4150
+    to_standard: 4
+    to_sector_id: 4567
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11232
+  fields:
+    from_sector_id: 4151
+    to_standard: 4
+    to_sector_id: 4569
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11233
+  fields:
+    from_sector_id: 4154
+    to_standard: 4
+    to_sector_id: 4586
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11234
+  fields:
+    from_sector_id: 4155
+    to_standard: 4
+    to_sector_id: 4586
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11235
+  fields:
+    from_sector_id: 4156
+    to_standard: 4
+    to_sector_id: 4599
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11236
+  fields:
+    from_sector_id: 4158
+    to_standard: 4
+    to_sector_id: 4599
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11237
+  fields:
+    from_sector_id: 4159
+    to_standard: 4
+    to_sector_id: 4468
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11238
+  fields:
+    from_sector_id: 4161
+    to_standard: 4
+    to_sector_id: 4471
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11239
+  fields:
+    from_sector_id: 4163
+    to_standard: 4
+    to_sector_id: 4468
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11240
+  fields:
+    from_sector_id: 4164
+    to_standard: 4
+    to_sector_id: 4473
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11241
+  fields:
+    from_sector_id: 4166
+    to_standard: 4
+    to_sector_id: 4597
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11242
+  fields:
+    from_sector_id: 4167
+    to_standard: 4
+    to_sector_id: 4438
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11243
+  fields:
+    from_sector_id: 4168
+    to_standard: 4
+    to_sector_id: 4438
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11244
+  fields:
+    from_sector_id: 4169
+    to_standard: 4
+    to_sector_id: 4549
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11245
+  fields:
+    from_sector_id: 4172
+    to_standard: 4
+    to_sector_id: 4609
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11246
+  fields:
+    from_sector_id: 4173
+    to_standard: 4
+    to_sector_id: 4609
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11247
+  fields:
+    from_sector_id: 4176
+    to_standard: 4
+    to_sector_id: 4748
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11248
+  fields:
+    from_sector_id: 4177
+    to_standard: 4
+    to_sector_id: 4748
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11249
+  fields:
+    from_sector_id: 4178
+    to_standard: 4
+    to_sector_id: 4630
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11250
+  fields:
+    from_sector_id: 4179
+    to_standard: 4
+    to_sector_id: 4630
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11251
+  fields:
+    from_sector_id: 4180
+    to_standard: 4
+    to_sector_id: 4650
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11252
+  fields:
+    from_sector_id: 4181
+    to_standard: 4
+    to_sector_id: 4934
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11253
+  fields:
+    from_sector_id: 4182
+    to_standard: 4
+    to_sector_id: 4934
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11254
+  fields:
+    from_sector_id: 4183
+    to_standard: 4
+    to_sector_id: 4605
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11255
+  fields:
+    from_sector_id: 4184
+    to_standard: 4
+    to_sector_id: 4711
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11256
+  fields:
+    from_sector_id: 4186
+    to_standard: 4
+    to_sector_id: 4605
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11257
+  fields:
+    from_sector_id: 4187
+    to_standard: 4
+    to_sector_id: 5013
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11258
+  fields:
+    from_sector_id: 4188
+    to_standard: 4
+    to_sector_id: 5013
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11259
+  fields:
+    from_sector_id: 4190
+    to_standard: 4
+    to_sector_id: 4554
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11260
+  fields:
+    from_sector_id: 4191
+    to_standard: 4
+    to_sector_id: 4554
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11261
+  fields:
+    from_sector_id: 4192
+    to_standard: 4
+    to_sector_id: 4732
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11262
+  fields:
+    from_sector_id: 4193
+    to_standard: 4
+    to_sector_id: 5044
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11263
+  fields:
+    from_sector_id: 4194
+    to_standard: 4
+    to_sector_id: 4857
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11264
+  fields:
+    from_sector_id: 4195
+    to_standard: 4
+    to_sector_id: 5029
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11265
+  fields:
+    from_sector_id: 4196
+    to_standard: 4
+    to_sector_id: 4918
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11266
+  fields:
+    from_sector_id: 4197
+    to_standard: 4
+    to_sector_id: 5016
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11267
+  fields:
+    from_sector_id: 4198
+    to_standard: 4
+    to_sector_id: 4918
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11268
+  fields:
+    from_sector_id: 4200
+    to_standard: 4
+    to_sector_id: 4866
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11269
+  fields:
+    from_sector_id: 4201
+    to_standard: 4
+    to_sector_id: 4866
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11270
+  fields:
+    from_sector_id: 4202
+    to_standard: 4
+    to_sector_id: 4852
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11271
+  fields:
+    from_sector_id: 4203
+    to_standard: 4
+    to_sector_id: 4852
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11272
+  fields:
+    from_sector_id: 4204
+    to_standard: 4
+    to_sector_id: 4845
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11273
+  fields:
+    from_sector_id: 4205
+    to_standard: 4
+    to_sector_id: 4845
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11274
+  fields:
+    from_sector_id: 4206
+    to_standard: 4
+    to_sector_id: 4835
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11275
+  fields:
+    from_sector_id: 4207
+    to_standard: 4
+    to_sector_id: 4835
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11276
+  fields:
+    from_sector_id: 4208
+    to_standard: 4
+    to_sector_id: 4840
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11277
+  fields:
+    from_sector_id: 4209
+    to_standard: 4
+    to_sector_id: 4738
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11278
+  fields:
+    from_sector_id: 4211
+    to_standard: 4
+    to_sector_id: 4838
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11279
+  fields:
+    from_sector_id: 4212
+    to_standard: 4
+    to_sector_id: 4738
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11280
+  fields:
+    from_sector_id: 4215
+    to_standard: 4
+    to_sector_id: 4580
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11281
+  fields:
+    from_sector_id: 4217
+    to_standard: 4
+    to_sector_id: 4580
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11282
+  fields:
+    from_sector_id: 4218
+    to_standard: 4
+    to_sector_id: 4673
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11283
+  fields:
+    from_sector_id: 4219
+    to_standard: 4
+    to_sector_id: 4673
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11284
+  fields:
+    from_sector_id: 4220
+    to_standard: 4
+    to_sector_id: 4686
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11285
+  fields:
+    from_sector_id: 4222
+    to_standard: 4
+    to_sector_id: 4623
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11286
+  fields:
+    from_sector_id: 4225
+    to_standard: 4
+    to_sector_id: 4706
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11287
+  fields:
+    from_sector_id: 4226
+    to_standard: 4
+    to_sector_id: 4623
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11288
+  fields:
+    from_sector_id: 4228
+    to_standard: 4
+    to_sector_id: 4698
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11289
+  fields:
+    from_sector_id: 4229
+    to_standard: 4
+    to_sector_id: 4698
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11290
+  fields:
+    from_sector_id: 4230
+    to_standard: 4
+    to_sector_id: 4517
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11291
+  fields:
+    from_sector_id: 4231
+    to_standard: 4
+    to_sector_id: 4532
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11292
+  fields:
+    from_sector_id: 4232
+    to_standard: 4
+    to_sector_id: 4538
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11293
+  fields:
+    from_sector_id: 4233
+    to_standard: 4
+    to_sector_id: 4517
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11294
+  fields:
+    from_sector_id: 4235
+    to_standard: 4
+    to_sector_id: 4712
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11295
+  fields:
+    from_sector_id: 4236
+    to_standard: 4
+    to_sector_id: 5114
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11296
+  fields:
+    from_sector_id: 4237
+    to_standard: 4
+    to_sector_id: 4872
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11297
+  fields:
+    from_sector_id: 4238
+    to_standard: 4
+    to_sector_id: 4712
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11298
+  fields:
+    from_sector_id: 4239
+    to_standard: 4
+    to_sector_id: 4879
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11299
+  fields:
+    from_sector_id: 4240
+    to_standard: 4
+    to_sector_id: 4707
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11300
+  fields:
+    from_sector_id: 4241
+    to_standard: 4
+    to_sector_id: 5069
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11301
+  fields:
+    from_sector_id: 4242
+    to_standard: 4
+    to_sector_id: 4707
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11302
+  fields:
+    from_sector_id: 4244
+    to_standard: 4
+    to_sector_id: 4768
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11303
+  fields:
+    from_sector_id: 4245
+    to_standard: 4
+    to_sector_id: 4768
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11304
+  fields:
+    from_sector_id: 4246
+    to_standard: 4
+    to_sector_id: 4827
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11305
+  fields:
+    from_sector_id: 4251
+    to_standard: 4
+    to_sector_id: 4709
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11306
+  fields:
+    from_sector_id: 4252
+    to_standard: 4
+    to_sector_id: 4821
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11307
+  fields:
+    from_sector_id: 4253
+    to_standard: 4
+    to_sector_id: 4709
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11308
+  fields:
+    from_sector_id: 4254
+    to_standard: 4
+    to_sector_id: 4812
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11309
+  fields:
+    from_sector_id: 4255
+    to_standard: 4
+    to_sector_id: 4804
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11310
+  fields:
+    from_sector_id: 4256
+    to_standard: 4
+    to_sector_id: 4806
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11311
+  fields:
+    from_sector_id: 4257
+    to_standard: 4
+    to_sector_id: 4813
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11312
+  fields:
+    from_sector_id: 4260
+    to_standard: 4
+    to_sector_id: 4779
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11313
+  fields:
+    from_sector_id: 4261
+    to_standard: 4
+    to_sector_id: 4822
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11314
+  fields:
+    from_sector_id: 4262
+    to_standard: 4
+    to_sector_id: 4779
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11315
+  fields:
+    from_sector_id: 4263
+    to_standard: 4
+    to_sector_id: 4799
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11316
+  fields:
+    from_sector_id: 4266
+    to_standard: 4
+    to_sector_id: 4508
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11317
+  fields:
+    from_sector_id: 4268
+    to_standard: 4
+    to_sector_id: 4508
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11318
+  fields:
+    from_sector_id: 4269
+    to_standard: 4
+    to_sector_id: 4511
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11319
+  fields:
+    from_sector_id: 4270
+    to_standard: 4
+    to_sector_id: 4400
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11320
+  fields:
+    from_sector_id: 4271
+    to_standard: 4
+    to_sector_id: 4400
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11321
+  fields:
+    from_sector_id: 4272
+    to_standard: 4
+    to_sector_id: 4485
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11322
+  fields:
+    from_sector_id: 4276
+    to_standard: 4
+    to_sector_id: 4571
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11323
+  fields:
+    from_sector_id: 4277
+    to_standard: 4
+    to_sector_id: 4571
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11324
+  fields:
+    from_sector_id: 4278
+    to_standard: 4
+    to_sector_id: 5052
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11325
+  fields:
+    from_sector_id: 4279
+    to_standard: 4
+    to_sector_id: 5052
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11326
+  fields:
+    from_sector_id: 4285
+    to_standard: 4
+    to_sector_id: 5084
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11327
+  fields:
+    from_sector_id: 4287
+    to_standard: 4
+    to_sector_id: 5086
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11328
+  fields:
+    from_sector_id: 4288
+    to_standard: 4
+    to_sector_id: 5084
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11329
+  fields:
+    from_sector_id: 4297
+    to_standard: 4
+    to_sector_id: 4981
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11330
+  fields:
+    from_sector_id: 4298
+    to_standard: 4
+    to_sector_id: 4981
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11331
+  fields:
+    from_sector_id: 4301
+    to_standard: 4
+    to_sector_id: 4932
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11332
+  fields:
+    from_sector_id: 4302
+    to_standard: 4
+    to_sector_id: 4932
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11333
+  fields:
+    from_sector_id: 4307
+    to_standard: 4
+    to_sector_id: 4940
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11334
+  fields:
+    from_sector_id: 4310
+    to_standard: 4
+    to_sector_id: 4940
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11335
+  fields:
+    from_sector_id: 4311
+    to_standard: 4
+    to_sector_id: 4938
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11336
+  fields:
+    from_sector_id: 4312
+    to_standard: 4
+    to_sector_id: 4938
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11337
+  fields:
+    from_sector_id: 4313
+    to_standard: 4
+    to_sector_id: 4936
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11338
+  fields:
+    from_sector_id: 4314
+    to_standard: 4
+    to_sector_id: 4948
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11339
+  fields:
+    from_sector_id: 4315
+    to_standard: 4
+    to_sector_id: 4952
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11340
+  fields:
+    from_sector_id: 4316
+    to_standard: 4
+    to_sector_id: 4936
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11341
+  fields:
+    from_sector_id: 4321
+    to_standard: 4
+    to_sector_id: 4943
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11342
+  fields:
+    from_sector_id: 4322
+    to_standard: 4
+    to_sector_id: 4956
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11343
+  fields:
+    from_sector_id: 4323
+    to_standard: 4
+    to_sector_id: 4943
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11344
+  fields:
+    from_sector_id: 4324
+    to_standard: 4
+    to_sector_id: 4957
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11345
+  fields:
+    from_sector_id: 4325
+    to_standard: 4
+    to_sector_id: 4955
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11346
+  fields:
+    from_sector_id: 4326
+    to_standard: 4
+    to_sector_id: 4946
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11347
+  fields:
+    from_sector_id: 4329
+    to_standard: 4
+    to_sector_id: 4923
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11348
+  fields:
+    from_sector_id: 4330
+    to_standard: 4
+    to_sector_id: 4923
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11349
+  fields:
+    from_sector_id: 4337
+    to_standard: 4
+    to_sector_id: 4621
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11350
+  fields:
+    from_sector_id: 4338
+    to_standard: 4
+    to_sector_id: 4621
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11351
+  fields:
+    from_sector_id: 4339
+    to_standard: 4
+    to_sector_id: 4557
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11352
+  fields:
+    from_sector_id: 4340
+    to_standard: 4
+    to_sector_id: 4557
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11353
+  fields:
+    from_sector_id: 4341
+    to_standard: 4
+    to_sector_id: 4617
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11354
+  fields:
+    from_sector_id: 4342
+    to_standard: 4
+    to_sector_id: 4626
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11355
+  fields:
+    from_sector_id: 4343
+    to_standard: 4
+    to_sector_id: 4617
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11356
+  fields:
+    from_sector_id: 4344
+    to_standard: 4
+    to_sector_id: 4619
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11357
+  fields:
+    from_sector_id: 4345
+    to_standard: 4
+    to_sector_id: 4777
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11358
+  fields:
+    from_sector_id: 4372
+    to_standard: 4
+    to_sector_id: 4720
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11359
+  fields:
+    from_sector_id: 4373
+    to_standard: 4
+    to_sector_id: 4720
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11360
+  fields:
+    from_sector_id: 4376
+    to_standard: 4
+    to_sector_id: 4722
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11361
+  fields:
+    from_sector_id: 4377
+    to_standard: 4
+    to_sector_id: 4722
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11362
+  fields:
+    from_sector_id: 4378
+    to_standard: 4
+    to_sector_id: 4718
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11363
+  fields:
+    from_sector_id: 4379
+    to_standard: 4
+    to_sector_id: 4718
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11364
+  fields:
+    from_sector_id: 4137
+    to_standard: 1
+    to_sector_id: 84
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11365
+  fields:
+    from_sector_id: 4138
+    to_standard: 1
+    to_sector_id: 84
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11366
+  fields:
+    from_sector_id: 4140
+    to_standard: 1
+    to_sector_id: 61
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11367
+  fields:
+    from_sector_id: 4143
+    to_standard: 1
+    to_sector_id: 199
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11368
+  fields:
+    from_sector_id: 4145
+    to_standard: 1
+    to_sector_id: 61
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11369
+  fields:
+    from_sector_id: 4148
+    to_standard: 1
+    to_sector_id: 81
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11370
+  fields:
+    from_sector_id: 4149
+    to_standard: 1
+    to_sector_id: 81
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11371
+  fields:
+    from_sector_id: 4150
+    to_standard: 1
+    to_sector_id: 208
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11372
+  fields:
+    from_sector_id: 4151
+    to_standard: 1
+    to_sector_id: 210
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11373
+  fields:
+    from_sector_id: 4154
+    to_standard: 1
+    to_sector_id: 240
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11374
+  fields:
+    from_sector_id: 4155
+    to_standard: 1
+    to_sector_id: 240
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11375
+  fields:
+    from_sector_id: 4156
+    to_standard: 1
+    to_sector_id: 282
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11376
+  fields:
+    from_sector_id: 4158
+    to_standard: 1
+    to_sector_id: 282
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11377
+  fields:
+    from_sector_id: 4159
+    to_standard: 1
+    to_sector_id: 73
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11378
+  fields:
+    from_sector_id: 4161
+    to_standard: 1
+    to_sector_id: 76
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11379
+  fields:
+    from_sector_id: 4163
+    to_standard: 1
+    to_sector_id: 73
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11380
+  fields:
+    from_sector_id: 4164
+    to_standard: 1
+    to_sector_id: 79
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11381
+  fields:
+    from_sector_id: 4166
+    to_standard: 1
+    to_sector_id: 272
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11382
+  fields:
+    from_sector_id: 4167
+    to_standard: 1
+    to_sector_id: 42
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11383
+  fields:
+    from_sector_id: 4168
+    to_standard: 1
+    to_sector_id: 42
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11384
+  fields:
+    from_sector_id: 4169
+    to_standard: 1
+    to_sector_id: 180
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11385
+  fields:
+    from_sector_id: 4172
+    to_standard: 1
+    to_sector_id: 302
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11386
+  fields:
+    from_sector_id: 4173
+    to_standard: 1
+    to_sector_id: 302
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11387
+  fields:
+    from_sector_id: 4176
+    to_standard: 1
+    to_sector_id: 479
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11388
+  fields:
+    from_sector_id: 4177
+    to_standard: 1
+    to_sector_id: 479
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11389
+  fields:
+    from_sector_id: 4178
+    to_standard: 1
+    to_sector_id: 334
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11390
+  fields:
+    from_sector_id: 4179
+    to_standard: 1
+    to_sector_id: 334
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11391
+  fields:
+    from_sector_id: 4180
+    to_standard: 1
+    to_sector_id: 357
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11392
+  fields:
+    from_sector_id: 4181
+    to_standard: 1
+    to_sector_id: 735
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11393
+  fields:
+    from_sector_id: 4182
+    to_standard: 1
+    to_sector_id: 735
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11394
+  fields:
+    from_sector_id: 4183
+    to_standard: 1
+    to_sector_id: 295
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11395
+  fields:
+    from_sector_id: 4184
+    to_standard: 1
+    to_sector_id: 432
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11396
+  fields:
+    from_sector_id: 4186
+    to_standard: 1
+    to_sector_id: 295
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11397
+  fields:
+    from_sector_id: 4187
+    to_standard: 1
+    to_sector_id: 829
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11398
+  fields:
+    from_sector_id: 4188
+    to_standard: 1
+    to_sector_id: 829
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11399
+  fields:
+    from_sector_id: 4190
+    to_standard: 1
+    to_sector_id: 190
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11400
+  fields:
+    from_sector_id: 4191
+    to_standard: 1
+    to_sector_id: 190
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11401
+  fields:
+    from_sector_id: 4192
+    to_standard: 1
+    to_sector_id: 460
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11402
+  fields:
+    from_sector_id: 4193
+    to_standard: 1
+    to_sector_id: 862
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11403
+  fields:
+    from_sector_id: 4194
+    to_standard: 1
+    to_sector_id: 653
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11404
+  fields:
+    from_sector_id: 4195
+    to_standard: 1
+    to_sector_id: 845
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11405
+  fields:
+    from_sector_id: 4196
+    to_standard: 1
+    to_sector_id: 719
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11406
+  fields:
+    from_sector_id: 4197
+    to_standard: 1
+    to_sector_id: 832
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11407
+  fields:
+    from_sector_id: 4198
+    to_standard: 1
+    to_sector_id: 719
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11408
+  fields:
+    from_sector_id: 4200
+    to_standard: 1
+    to_sector_id: 662
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11409
+  fields:
+    from_sector_id: 4201
+    to_standard: 1
+    to_sector_id: 662
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11410
+  fields:
+    from_sector_id: 4202
+    to_standard: 1
+    to_sector_id: 647
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11411
+  fields:
+    from_sector_id: 4203
+    to_standard: 1
+    to_sector_id: 647
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11412
+  fields:
+    from_sector_id: 4204
+    to_standard: 1
+    to_sector_id: 638
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11413
+  fields:
+    from_sector_id: 4205
+    to_standard: 1
+    to_sector_id: 638
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11414
+  fields:
+    from_sector_id: 4206
+    to_standard: 1
+    to_sector_id: 624
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11415
+  fields:
+    from_sector_id: 4207
+    to_standard: 1
+    to_sector_id: 624
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11416
+  fields:
+    from_sector_id: 4208
+    to_standard: 1
+    to_sector_id: 633
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11417
+  fields:
+    from_sector_id: 4209
+    to_standard: 1
+    to_sector_id: 466
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11418
+  fields:
+    from_sector_id: 4211
+    to_standard: 1
+    to_sector_id: 629
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11419
+  fields:
+    from_sector_id: 4212
+    to_standard: 1
+    to_sector_id: 466
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11420
+  fields:
+    from_sector_id: 4215
+    to_standard: 1
+    to_sector_id: 231
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11421
+  fields:
+    from_sector_id: 4217
+    to_standard: 1
+    to_sector_id: 231
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11422
+  fields:
+    from_sector_id: 4218
+    to_standard: 1
+    to_sector_id: 388
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11423
+  fields:
+    from_sector_id: 4219
+    to_standard: 1
+    to_sector_id: 388
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11424
+  fields:
+    from_sector_id: 4220
+    to_standard: 1
+    to_sector_id: 402
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11425
+  fields:
+    from_sector_id: 4222
+    to_standard: 1
+    to_sector_id: 327
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11426
+  fields:
+    from_sector_id: 4225
+    to_standard: 1
+    to_sector_id: 427
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11427
+  fields:
+    from_sector_id: 4226
+    to_standard: 1
+    to_sector_id: 327
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11428
+  fields:
+    from_sector_id: 4228
+    to_standard: 1
+    to_sector_id: 417
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11429
+  fields:
+    from_sector_id: 4229
+    to_standard: 1
+    to_sector_id: 417
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11430
+  fields:
+    from_sector_id: 4230
+    to_standard: 1
+    to_sector_id: 137
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11431
+  fields:
+    from_sector_id: 4231
+    to_standard: 1
+    to_sector_id: 161
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11432
+  fields:
+    from_sector_id: 4232
+    to_standard: 1
+    to_sector_id: 167
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11433
+  fields:
+    from_sector_id: 4233
+    to_standard: 1
+    to_sector_id: 137
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11434
+  fields:
+    from_sector_id: 4235
+    to_standard: 1
+    to_sector_id: 435
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11435
+  fields:
+    from_sector_id: 4236
+    to_standard: 1
+    to_sector_id: 943
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11436
+  fields:
+    from_sector_id: 4237
+    to_standard: 1
+    to_sector_id: 668
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11437
+  fields:
+    from_sector_id: 4238
+    to_standard: 1
+    to_sector_id: 435
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11438
+  fields:
+    from_sector_id: 4239
+    to_standard: 1
+    to_sector_id: 677
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11439
+  fields:
+    from_sector_id: 4240
+    to_standard: 1
+    to_sector_id: 428
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11440
+  fields:
+    from_sector_id: 4241
+    to_standard: 1
+    to_sector_id: 888
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11441
+  fields:
+    from_sector_id: 4242
+    to_standard: 1
+    to_sector_id: 428
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11442
+  fields:
+    from_sector_id: 4244
+    to_standard: 1
+    to_sector_id: 509
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11443
+  fields:
+    from_sector_id: 4245
+    to_standard: 1
+    to_sector_id: 509
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11444
+  fields:
+    from_sector_id: 4246
+    to_standard: 1
+    to_sector_id: 617
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11445
+  fields:
+    from_sector_id: 4251
+    to_standard: 1
+    to_sector_id: 430
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11446
+  fields:
+    from_sector_id: 4252
+    to_standard: 1
+    to_sector_id: 606
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11447
+  fields:
+    from_sector_id: 4253
+    to_standard: 1
+    to_sector_id: 430
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11448
+  fields:
+    from_sector_id: 4254
+    to_standard: 1
+    to_sector_id: 595
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11449
+  fields:
+    from_sector_id: 4255
+    to_standard: 1
+    to_sector_id: 585
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11450
+  fields:
+    from_sector_id: 4256
+    to_standard: 1
+    to_sector_id: 587
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11451
+  fields:
+    from_sector_id: 4257
+    to_standard: 1
+    to_sector_id: 596
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11452
+  fields:
+    from_sector_id: 4260
+    to_standard: 1
+    to_sector_id: 530
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11453
+  fields:
+    from_sector_id: 4261
+    to_standard: 1
+    to_sector_id: 608
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11454
+  fields:
+    from_sector_id: 4262
+    to_standard: 1
+    to_sector_id: 530
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11455
+  fields:
+    from_sector_id: 4263
+    to_standard: 1
+    to_sector_id: 577
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11456
+  fields:
+    from_sector_id: 4266
+    to_standard: 1
+    to_sector_id: 126
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11457
+  fields:
+    from_sector_id: 4268
+    to_standard: 1
+    to_sector_id: 126
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11458
+  fields:
+    from_sector_id: 4269
+    to_standard: 1
+    to_sector_id: 132
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11459
+  fields:
+    from_sector_id: 4270
+    to_standard: 1
+    to_sector_id: 4
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11460
+  fields:
+    from_sector_id: 4271
+    to_standard: 1
+    to_sector_id: 4
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11461
+  fields:
+    from_sector_id: 4272
+    to_standard: 1
+    to_sector_id: 91
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11462
+  fields:
+    from_sector_id: 4276
+    to_standard: 1
+    to_sector_id: 215
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11463
+  fields:
+    from_sector_id: 4277
+    to_standard: 1
+    to_sector_id: 215
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11464
+  fields:
+    from_sector_id: 4278
+    to_standard: 1
+    to_sector_id: 870
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11465
+  fields:
+    from_sector_id: 4279
+    to_standard: 1
+    to_sector_id: 870
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11466
+  fields:
+    from_sector_id: 4285
+    to_standard: 1
+    to_sector_id: 907
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11467
+  fields:
+    from_sector_id: 4287
+    to_standard: 1
+    to_sector_id: 910
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11468
+  fields:
+    from_sector_id: 4288
+    to_standard: 1
+    to_sector_id: 907
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11469
+  fields:
+    from_sector_id: 4297
+    to_standard: 1
+    to_sector_id: 787
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11470
+  fields:
+    from_sector_id: 4298
+    to_standard: 1
+    to_sector_id: 787
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11471
+  fields:
+    from_sector_id: 4301
+    to_standard: 1
+    to_sector_id: 734
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11472
+  fields:
+    from_sector_id: 4302
+    to_standard: 1
+    to_sector_id: 734
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11473
+  fields:
+    from_sector_id: 4307
+    to_standard: 1
+    to_sector_id: 742
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11474
+  fields:
+    from_sector_id: 4310
+    to_standard: 1
+    to_sector_id: 742
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11475
+  fields:
+    from_sector_id: 4311
+    to_standard: 1
+    to_sector_id: 740
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11476
+  fields:
+    from_sector_id: 4312
+    to_standard: 1
+    to_sector_id: 740
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11477
+  fields:
+    from_sector_id: 4313
+    to_standard: 1
+    to_sector_id: 737
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11478
+  fields:
+    from_sector_id: 4314
+    to_standard: 1
+    to_sector_id: 749
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11479
+  fields:
+    from_sector_id: 4315
+    to_standard: 1
+    to_sector_id: 754
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11480
+  fields:
+    from_sector_id: 4316
+    to_standard: 1
+    to_sector_id: 737
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11481
+  fields:
+    from_sector_id: 4321
+    to_standard: 1
+    to_sector_id: 745
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11482
+  fields:
+    from_sector_id: 4322
+    to_standard: 1
+    to_sector_id: 758
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11483
+  fields:
+    from_sector_id: 4323
+    to_standard: 1
+    to_sector_id: 745
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11484
+  fields:
+    from_sector_id: 4324
+    to_standard: 1
+    to_sector_id: 759
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11485
+  fields:
+    from_sector_id: 4325
+    to_standard: 1
+    to_sector_id: 757
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11486
+  fields:
+    from_sector_id: 4326
+    to_standard: 1
+    to_sector_id: 747
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11487
+  fields:
+    from_sector_id: 4329
+    to_standard: 1
+    to_sector_id: 725
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11488
+  fields:
+    from_sector_id: 4330
+    to_standard: 1
+    to_sector_id: 725
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11489
+  fields:
+    from_sector_id: 4337
+    to_standard: 1
+    to_sector_id: 325
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11490
+  fields:
+    from_sector_id: 4338
+    to_standard: 1
+    to_sector_id: 325
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11491
+  fields:
+    from_sector_id: 4339
+    to_standard: 1
+    to_sector_id: 194
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11492
+  fields:
+    from_sector_id: 4340
+    to_standard: 1
+    to_sector_id: 194
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11493
+  fields:
+    from_sector_id: 4341
+    to_standard: 1
+    to_sector_id: 321
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11494
+  fields:
+    from_sector_id: 4342
+    to_standard: 1
+    to_sector_id: 331
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11495
+  fields:
+    from_sector_id: 4343
+    to_standard: 1
+    to_sector_id: 321
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11496
+  fields:
+    from_sector_id: 4344
+    to_standard: 1
+    to_sector_id: 323
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11497
+  fields:
+    from_sector_id: 4345
+    to_standard: 1
+    to_sector_id: 520
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11498
+  fields:
+    from_sector_id: 4372
+    to_standard: 1
+    to_sector_id: 446
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11499
+  fields:
+    from_sector_id: 4373
+    to_standard: 1
+    to_sector_id: 446
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11500
+  fields:
+    from_sector_id: 4376
+    to_standard: 1
+    to_sector_id: 449
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11501
+  fields:
+    from_sector_id: 4377
+    to_standard: 1
+    to_sector_id: 449
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11502
+  fields:
+    from_sector_id: 4378
+    to_standard: 1
+    to_sector_id: 441
+- model: economy_sector_module.EconomySectorRelation
+  pk: 11503
+  fields:
+    from_sector_id: 4379
+    to_standard: 1
+    to_sector_id: 441

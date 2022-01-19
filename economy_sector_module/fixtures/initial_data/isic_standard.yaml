@@ -1,0 +1,6931 @@
+- model: economy_sector_module.EconomySector
+  pk: 4397
+  fields:
+    standard: 4
+    level: 1
+    label: Agriculture, forestry and fishing
+    code: A
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4398
+  fields:
+    standard: 4
+    level: 2
+    label: Crop and animal production, hunting and related service activities
+    code: '01'
+    parent_id: 4397
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4399
+  fields:
+    standard: 4
+    level: 3
+    label: Growing of non-perennial crops
+    code: '011'
+    parent_id: 4398
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4400
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of cereals (except rice), leguminous crops and oil seeds
+    code: '0111'
+    parent_id: 4399
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4401
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of rice
+    code: '0112'
+    parent_id: 4399
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4402
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of vegetables and melons, roots and tubers
+    code: '0113'
+    parent_id: 4399
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4403
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of sugar cane
+    code: '0114'
+    parent_id: 4399
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4404
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of tobacco
+    code: '0115'
+    parent_id: 4399
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4405
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of fibre crops
+    code: '0116'
+    parent_id: 4399
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4406
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of other non-perennial crops
+    code: 0119
+    parent_id: 4399
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4407
+  fields:
+    standard: 4
+    level: 3
+    label: Growing of perennial crops
+    code: '012'
+    parent_id: 4398
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4408
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of grapes
+    code: '0121'
+    parent_id: 4407
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4409
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of tropical and subtropical fruits
+    code: '0122'
+    parent_id: 4407
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4410
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of citrus fruits
+    code: '0123'
+    parent_id: 4407
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4411
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of pome fruits and stone fruits
+    code: '0124'
+    parent_id: 4407
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4412
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of other tree and bush fruits and nuts
+    code: '0125'
+    parent_id: 4407
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4413
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of oleaginous fruits
+    code: '0126'
+    parent_id: 4407
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4414
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of beverage crops
+    code: '0127'
+    parent_id: 4407
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4415
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of spices, aromatic, drug and pharmaceutical crops
+    code: 0128
+    parent_id: 4407
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4416
+  fields:
+    standard: 4
+    level: 4
+    label: Growing of other perennial crops
+    code: 0129
+    parent_id: 4407
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4417
+  fields:
+    standard: 4
+    level: 3
+    label: Plant propagation
+    code: '013'
+    parent_id: 4398
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4418
+  fields:
+    standard: 4
+    level: 4
+    label: Plant propagation
+    code: '0130'
+    parent_id: 4417
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4419
+  fields:
+    standard: 4
+    level: 3
+    label: Animal production
+    code: '014'
+    parent_id: 4398
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4420
+  fields:
+    standard: 4
+    level: 4
+    label: Raising of cattle and buffaloes
+    code: '0141'
+    parent_id: 4419
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4421
+  fields:
+    standard: 4
+    level: 4
+    label: Raising of horses and other equines
+    code: '0142'
+    parent_id: 4419
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4422
+  fields:
+    standard: 4
+    level: 4
+    label: Raising of camels and camelids
+    code: '0143'
+    parent_id: 4419
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4423
+  fields:
+    standard: 4
+    level: 4
+    label: Raising of sheep and goats
+    code: '0144'
+    parent_id: 4419
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4424
+  fields:
+    standard: 4
+    level: 4
+    label: Raising of swine/pigs
+    code: '0145'
+    parent_id: 4419
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4425
+  fields:
+    standard: 4
+    level: 4
+    label: Raising of poultry
+    code: '0146'
+    parent_id: 4419
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4426
+  fields:
+    standard: 4
+    level: 4
+    label: Raising of other animals
+    code: 0149
+    parent_id: 4419
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4427
+  fields:
+    standard: 4
+    level: 3
+    label: Mixed farming
+    code: '015'
+    parent_id: 4398
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4428
+  fields:
+    standard: 4
+    level: 4
+    label: Mixed farming
+    code: '0150'
+    parent_id: 4427
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4429
+  fields:
+    standard: 4
+    level: 3
+    label: Support activities to agriculture and post-harvest crop activities
+    code: '016'
+    parent_id: 4398
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4430
+  fields:
+    standard: 4
+    level: 4
+    label: Support activities for crop production
+    code: '0161'
+    parent_id: 4429
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4431
+  fields:
+    standard: 4
+    level: 4
+    label: Support activities for animal production
+    code: '0162'
+    parent_id: 4429
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4432
+  fields:
+    standard: 4
+    level: 4
+    label: Post-harvest crop activities
+    code: '0163'
+    parent_id: 4429
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4433
+  fields:
+    standard: 4
+    level: 4
+    label: Seed processing for propagation
+    code: '0164'
+    parent_id: 4429
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4434
+  fields:
+    standard: 4
+    level: 3
+    label: Hunting, trapping and related service activities
+    code: '017'
+    parent_id: 4398
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4435
+  fields:
+    standard: 4
+    level: 4
+    label: Hunting, trapping and related service activities
+    code: '0170'
+    parent_id: 4434
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4436
+  fields:
+    standard: 4
+    level: 2
+    label: Forestry and logging
+    code: '02'
+    parent_id: 4397
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4437
+  fields:
+    standard: 4
+    level: 3
+    label: Silviculture and other forestry activities
+    code: '021'
+    parent_id: 4436
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4438
+  fields:
+    standard: 4
+    level: 4
+    label: Silviculture and other forestry activities
+    code: '0210'
+    parent_id: 4437
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4439
+  fields:
+    standard: 4
+    level: 3
+    label: Logging
+    code: '022'
+    parent_id: 4436
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4440
+  fields:
+    standard: 4
+    level: 4
+    label: Logging
+    code: '0220'
+    parent_id: 4439
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4441
+  fields:
+    standard: 4
+    level: 3
+    label: Gathering of non-wood forest products
+    code: '023'
+    parent_id: 4436
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4442
+  fields:
+    standard: 4
+    level: 4
+    label: Gathering of non-wood forest products
+    code: '0230'
+    parent_id: 4441
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4443
+  fields:
+    standard: 4
+    level: 3
+    label: Support services to forestry
+    code: '024'
+    parent_id: 4436
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4444
+  fields:
+    standard: 4
+    level: 4
+    label: Support services to forestry
+    code: '0240'
+    parent_id: 4443
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4445
+  fields:
+    standard: 4
+    level: 2
+    label: Fishing and aquaculture
+    code: '03'
+    parent_id: 4397
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4446
+  fields:
+    standard: 4
+    level: 3
+    label: Fishing
+    code: '031'
+    parent_id: 4445
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4447
+  fields:
+    standard: 4
+    level: 4
+    label: Marine fishing
+    code: '0311'
+    parent_id: 4446
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4448
+  fields:
+    standard: 4
+    level: 4
+    label: Freshwater fishing
+    code: '0312'
+    parent_id: 4446
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4449
+  fields:
+    standard: 4
+    level: 3
+    label: Aquaculture
+    code: '032'
+    parent_id: 4445
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4450
+  fields:
+    standard: 4
+    level: 4
+    label: Marine aquaculture
+    code: '0321'
+    parent_id: 4449
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4451
+  fields:
+    standard: 4
+    level: 4
+    label: Freshwater aquaculture
+    code: '0322'
+    parent_id: 4449
+    top_parent_id: 4397
+- model: economy_sector_module.EconomySector
+  pk: 4452
+  fields:
+    standard: 4
+    level: 1
+    label: Mining and quarrying
+    code: B
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4453
+  fields:
+    standard: 4
+    level: 2
+    label: Mining of coal and lignite
+    code: '05'
+    parent_id: 4452
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4454
+  fields:
+    standard: 4
+    level: 3
+    label: Mining of hard coal
+    code: '051'
+    parent_id: 4453
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4455
+  fields:
+    standard: 4
+    level: 4
+    label: Mining of hard coal
+    code: '0510'
+    parent_id: 4454
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4456
+  fields:
+    standard: 4
+    level: 3
+    label: Mining of lignite
+    code: '052'
+    parent_id: 4453
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4457
+  fields:
+    standard: 4
+    level: 4
+    label: Mining of lignite
+    code: '0520'
+    parent_id: 4456
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4458
+  fields:
+    standard: 4
+    level: 2
+    label: Extraction of crude petroleum and natural gas
+    code: '06'
+    parent_id: 4452
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4459
+  fields:
+    standard: 4
+    level: 3
+    label: Extraction of crude petroleum
+    code: '061'
+    parent_id: 4458
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4460
+  fields:
+    standard: 4
+    level: 4
+    label: Extraction of crude petroleum
+    code: '0610'
+    parent_id: 4459
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4461
+  fields:
+    standard: 4
+    level: 3
+    label: Extraction of natural gas
+    code: '062'
+    parent_id: 4458
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4462
+  fields:
+    standard: 4
+    level: 4
+    label: Extraction of natural gas
+    code: '0620'
+    parent_id: 4461
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4463
+  fields:
+    standard: 4
+    level: 2
+    label: Mining of metal ores
+    code: '07'
+    parent_id: 4452
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4464
+  fields:
+    standard: 4
+    level: 3
+    label: Mining of iron ores
+    code: '071'
+    parent_id: 4463
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4465
+  fields:
+    standard: 4
+    level: 4
+    label: Mining of iron ores
+    code: '0710'
+    parent_id: 4464
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4466
+  fields:
+    standard: 4
+    level: 3
+    label: Mining of non-ferrous metal ores
+    code: '072'
+    parent_id: 4463
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4467
+  fields:
+    standard: 4
+    level: 4
+    label: Mining of uranium and thorium ores
+    code: '0721'
+    parent_id: 4466
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4468
+  fields:
+    standard: 4
+    level: 4
+    label: Mining of other non-ferrous metal ores
+    code: 0729
+    parent_id: 4466
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4469
+  fields:
+    standard: 4
+    level: 2
+    label: Other mining and quarrying
+    code: 08
+    parent_id: 4452
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4470
+  fields:
+    standard: 4
+    level: 3
+    label: Quarrying of stone, sand and clay
+    code: 081
+    parent_id: 4469
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4471
+  fields:
+    standard: 4
+    level: 4
+    label: Quarrying of stone, sand and clay
+    code: 0810
+    parent_id: 4470
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4472
+  fields:
+    standard: 4
+    level: 3
+    label: Mining and quarrying n.e.c.
+    code: 089
+    parent_id: 4469
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4473
+  fields:
+    standard: 4
+    level: 4
+    label: Mining of chemical and fertilizer minerals
+    code: 0891
+    parent_id: 4472
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4474
+  fields:
+    standard: 4
+    level: 4
+    label: Extraction of peat
+    code: 0892
+    parent_id: 4472
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4475
+  fields:
+    standard: 4
+    level: 4
+    label: Extraction of salt
+    code: 0893
+    parent_id: 4472
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4476
+  fields:
+    standard: 4
+    level: 4
+    label: Other mining and quarrying n.e.c.
+    code: 0899
+    parent_id: 4472
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4477
+  fields:
+    standard: 4
+    level: 2
+    label: Mining support service activities
+    code: 09
+    parent_id: 4452
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4478
+  fields:
+    standard: 4
+    level: 3
+    label: Support activities for petroleum and natural gas extraction
+    code: 091
+    parent_id: 4477
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4479
+  fields:
+    standard: 4
+    level: 4
+    label: Support activities for petroleum and natural gas extraction
+    code: 0910
+    parent_id: 4478
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4480
+  fields:
+    standard: 4
+    level: 3
+    label: Support activities for other mining and quarrying
+    code: 099
+    parent_id: 4477
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4481
+  fields:
+    standard: 4
+    level: 4
+    label: Support activities for other mining and quarrying
+    code: 0990
+    parent_id: 4480
+    top_parent_id: 4452
+- model: economy_sector_module.EconomySector
+  pk: 4482
+  fields:
+    standard: 4
+    level: 1
+    label: Manufacturing
+    code: C
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4483
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of food products
+    code: '10'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4484
+  fields:
+    standard: 4
+    level: 3
+    label: Processing and preserving of meat
+    code: '101'
+    parent_id: 4483
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4485
+  fields:
+    standard: 4
+    level: 4
+    label: Processing and preserving of meat
+    code: '1010'
+    parent_id: 4484
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4486
+  fields:
+    standard: 4
+    level: 3
+    label: Processing and preserving of fish, crustaceans and molluscs
+    code: '102'
+    parent_id: 4483
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4487
+  fields:
+    standard: 4
+    level: 4
+    label: Processing and preserving of fish, crustaceans and molluscs
+    code: '1020'
+    parent_id: 4486
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4488
+  fields:
+    standard: 4
+    level: 3
+    label: Processing and preserving of fruit and vegetables
+    code: '103'
+    parent_id: 4483
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4489
+  fields:
+    standard: 4
+    level: 4
+    label: Processing and preserving of fruit and vegetables
+    code: '1030'
+    parent_id: 4488
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4490
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of vegetable and animal oils and fats
+    code: '104'
+    parent_id: 4483
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4491
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of vegetable and animal oils and fats
+    code: '1040'
+    parent_id: 4490
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4492
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of dairy products
+    code: '105'
+    parent_id: 4483
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4493
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of dairy products
+    code: '1050'
+    parent_id: 4492
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4494
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of grain mill products, starches and starch products
+    code: '106'
+    parent_id: 4483
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4495
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of grain mill products
+    code: '1061'
+    parent_id: 4494
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4496
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of starches and starch products
+    code: '1062'
+    parent_id: 4494
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4497
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of other food products
+    code: '107'
+    parent_id: 4483
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4498
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of bakery products
+    code: '1071'
+    parent_id: 4497
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4499
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of sugar
+    code: '1072'
+    parent_id: 4497
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4500
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of cocoa, chocolate and sugar confectionery
+    code: '1073'
+    parent_id: 4497
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4501
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of macaroni, noodles, couscous and similar farinaceous products
+    code: '1074'
+    parent_id: 4497
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4502
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of prepared meals and dishes
+    code: '1075'
+    parent_id: 4497
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4503
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other food products n.e.c.
+    code: '1079'
+    parent_id: 4497
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4504
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of prepared animal feeds
+    code: '108'
+    parent_id: 4483
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4505
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of prepared animal feeds
+    code: '1080'
+    parent_id: 4504
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4506
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of beverages
+    code: '11'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4507
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of beverages
+    code: '110'
+    parent_id: 4506
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4508
+  fields:
+    standard: 4
+    level: 4
+    label: Distilling, rectifying and blending of spirits
+    code: '1101'
+    parent_id: 4507
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4509
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of wines
+    code: '1102'
+    parent_id: 4507
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4510
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of malt liquors and malt
+    code: '1103'
+    parent_id: 4507
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4511
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of soft drinks; production of mineral waters and other bottled
+      waters
+    code: '1104'
+    parent_id: 4507
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4512
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of tobacco products
+    code: '12'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4513
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of tobacco products
+    code: '120'
+    parent_id: 4512
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4514
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of tobacco products
+    code: '1200'
+    parent_id: 4513
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4515
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of textiles
+    code: '13'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4516
+  fields:
+    standard: 4
+    level: 3
+    label: Spinning, weaving and finishing of textiles
+    code: '131'
+    parent_id: 4515
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4517
+  fields:
+    standard: 4
+    level: 4
+    label: Preparation and spinning of textile fibres
+    code: '1311'
+    parent_id: 4516
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4518
+  fields:
+    standard: 4
+    level: 4
+    label: Weaving of textiles
+    code: '1312'
+    parent_id: 4516
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4519
+  fields:
+    standard: 4
+    level: 4
+    label: Finishing of textiles
+    code: '1313'
+    parent_id: 4516
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4520
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of other textiles
+    code: '139'
+    parent_id: 4515
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4521
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of knitted and crocheted fabrics
+    code: '1391'
+    parent_id: 4520
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4522
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of made-up textile articles, except apparel
+    code: '1392'
+    parent_id: 4520
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4523
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of carpets and rugs
+    code: '1393'
+    parent_id: 4520
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4524
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of cordage, rope, twine and netting
+    code: '1394'
+    parent_id: 4520
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4525
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other textiles n.e.c.
+    code: '1399'
+    parent_id: 4520
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4526
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of wearing apparel
+    code: '14'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4527
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of wearing apparel, except fur apparel
+    code: '141'
+    parent_id: 4526
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4528
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of wearing apparel, except fur apparel
+    code: '1410'
+    parent_id: 4527
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4529
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of articles of fur
+    code: '142'
+    parent_id: 4526
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4530
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of articles of fur
+    code: '1420'
+    parent_id: 4529
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4531
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of knitted and crocheted apparel
+    code: '143'
+    parent_id: 4526
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4532
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of knitted and crocheted apparel
+    code: '1430'
+    parent_id: 4531
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4533
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of leather and related products
+    code: '15'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4534
+  fields:
+    standard: 4
+    level: 3
+    label: Tanning and dressing of leather; manufacture of luggage, handbags, saddlery
+      and harness; dressing and dyeing of fur
+    code: '151'
+    parent_id: 4533
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4535
+  fields:
+    standard: 4
+    level: 4
+    label: Tanning and dressing of leather; dressing and dyeing of fur
+    code: '1511'
+    parent_id: 4534
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4536
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of luggage, handbags and the like, saddlery and harness
+    code: '1512'
+    parent_id: 4534
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4537
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of footwear
+    code: '152'
+    parent_id: 4533
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4538
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of footwear
+    code: '1520'
+    parent_id: 4537
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4539
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of wood and of products of wood and cork, except furniture;
+      manufacture of articles of straw and plaiting materials
+    code: '16'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4540
+  fields:
+    standard: 4
+    level: 3
+    label: Sawmilling and planing of wood
+    code: '161'
+    parent_id: 4539
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4541
+  fields:
+    standard: 4
+    level: 4
+    label: Sawmilling and planing of wood
+    code: '1610'
+    parent_id: 4540
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4542
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of products of wood, cork, straw and plaiting materials
+    code: '162'
+    parent_id: 4539
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4543
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of veneer sheets and wood-based panels
+    code: '1621'
+    parent_id: 4542
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4544
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of builders' carpentry and joinery
+    code: '1622'
+    parent_id: 4542
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4545
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of wooden containers
+    code: '1623'
+    parent_id: 4542
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4546
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other products of wood; manufacture of articles of cork,
+      straw and plaiting materials
+    code: '1629'
+    parent_id: 4542
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4547
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of paper and paper products
+    code: '17'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4548
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of paper and paper products
+    code: '170'
+    parent_id: 4547
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4549
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of pulp, paper and paperboard
+    code: '1701'
+    parent_id: 4548
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4550
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of corrugated paper and paperboard and of containers of paper
+      and paperboard
+    code: '1702'
+    parent_id: 4548
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4551
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other articles of paper and paperboard
+    code: '1709'
+    parent_id: 4548
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4552
+  fields:
+    standard: 4
+    level: 2
+    label: Printing and reproduction of recorded media
+    code: '18'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4553
+  fields:
+    standard: 4
+    level: 3
+    label: Printing and service activities related to printing
+    code: '181'
+    parent_id: 4552
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4554
+  fields:
+    standard: 4
+    level: 4
+    label: Printing
+    code: '1811'
+    parent_id: 4553
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4555
+  fields:
+    standard: 4
+    level: 4
+    label: Service activities related to printing
+    code: '1812'
+    parent_id: 4553
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4556
+  fields:
+    standard: 4
+    level: 3
+    label: Reproduction of recorded media
+    code: '182'
+    parent_id: 4552
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4557
+  fields:
+    standard: 4
+    level: 4
+    label: Reproduction of recorded media
+    code: '1820'
+    parent_id: 4556
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4558
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of coke and refined petroleum products
+    code: '19'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4559
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of coke oven products
+    code: '191'
+    parent_id: 4558
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4560
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of coke oven products
+    code: '1910'
+    parent_id: 4559
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4561
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of refined petroleum products
+    code: '192'
+    parent_id: 4558
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4562
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of refined petroleum products
+    code: '1920'
+    parent_id: 4561
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4563
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of chemicals and chemical products
+    code: '20'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4564
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics
+      and synthetic rubber in primary forms
+    code: '201'
+    parent_id: 4563
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4565
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of basic chemicals
+    code: '2011'
+    parent_id: 4564
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4566
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of fertilizers and nitrogen compounds
+    code: '2012'
+    parent_id: 4564
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4567
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of plastics and synthetic rubber in primary forms
+    code: '2013'
+    parent_id: 4564
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4568
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of other chemical products
+    code: '202'
+    parent_id: 4563
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4569
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of pesticides and other agrochemical products
+    code: '2021'
+    parent_id: 4568
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4570
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of paints, varnishes and similar coatings, printing ink and
+      mastics
+    code: '2022'
+    parent_id: 4568
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4571
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of soap and detergents, cleaning and polishing preparations,
+      perfumes and toilet preparations
+    code: '2023'
+    parent_id: 4568
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4572
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other chemical products n.e.c.
+    code: '2029'
+    parent_id: 4568
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4573
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of man-made fibres
+    code: '203'
+    parent_id: 4563
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4574
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of man-made fibres
+    code: '2030'
+    parent_id: 4573
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4575
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of basic pharmaceutical products and pharmaceutical preparations
+    code: '21'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4576
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of pharmaceuticals, medicinal chemical and botanical products
+    code: '210'
+    parent_id: 4575
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4577
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of pharmaceuticals, medicinal chemical and botanical products
+    code: '2100'
+    parent_id: 4576
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4578
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of rubber and plastics products
+    code: '22'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4579
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of rubber products
+    code: '221'
+    parent_id: 4578
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4580
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber
+      tyres
+    code: '2211'
+    parent_id: 4579
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4581
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other rubber products
+    code: '2219'
+    parent_id: 4579
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4582
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of plastics products
+    code: '222'
+    parent_id: 4578
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4583
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of plastics products
+    code: '2220'
+    parent_id: 4582
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4584
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of other non-metallic mineral products
+    code: '23'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4585
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of glass and glass products
+    code: '231'
+    parent_id: 4584
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4586
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of glass and glass products
+    code: '2310'
+    parent_id: 4585
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4587
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of non-metallic mineral products n.e.c.
+    code: '239'
+    parent_id: 4584
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4588
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of refractory products
+    code: '2391'
+    parent_id: 4587
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4589
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of clay building materials
+    code: '2392'
+    parent_id: 4587
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4590
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other porcelain and ceramic products
+    code: '2393'
+    parent_id: 4587
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4591
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of cement, lime and plaster
+    code: '2394'
+    parent_id: 4587
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4592
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of articles of concrete, cement and plaster
+    code: '2395'
+    parent_id: 4587
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4593
+  fields:
+    standard: 4
+    level: 4
+    label: Cutting, shaping and finishing of stone
+    code: '2396'
+    parent_id: 4587
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4594
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other non-metallic mineral products n.e.c.
+    code: '2399'
+    parent_id: 4587
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4595
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of basic metals
+    code: '24'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4596
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of basic iron and steel
+    code: '241'
+    parent_id: 4595
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4597
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of basic iron and steel
+    code: '2410'
+    parent_id: 4596
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4598
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of basic precious and other non-ferrous metals
+    code: '242'
+    parent_id: 4595
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4599
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of basic precious and other non-ferrous metals
+    code: '2420'
+    parent_id: 4598
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4600
+  fields:
+    standard: 4
+    level: 3
+    label: Casting of metals
+    code: '243'
+    parent_id: 4595
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4601
+  fields:
+    standard: 4
+    level: 4
+    label: Casting of iron and steel
+    code: '2431'
+    parent_id: 4600
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4602
+  fields:
+    standard: 4
+    level: 4
+    label: Casting of non-ferrous metals
+    code: '2432'
+    parent_id: 4600
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4603
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of fabricated metal products, except machinery and equipment
+    code: '25'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4604
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of structural metal products, tanks, reservoirs and steam generators
+    code: '251'
+    parent_id: 4603
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4605
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of structural metal products
+    code: '2511'
+    parent_id: 4604
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4606
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of tanks, reservoirs and containers of metal
+    code: '2512'
+    parent_id: 4604
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4607
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of steam generators, except central heating hot water boilers
+    code: '2513'
+    parent_id: 4604
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4608
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of weapons and ammunition
+    code: '252'
+    parent_id: 4603
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4609
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of weapons and ammunition
+    code: '2520'
+    parent_id: 4608
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4610
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of other fabricated metal products; metalworking service activities
+    code: '259'
+    parent_id: 4603
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4611
+  fields:
+    standard: 4
+    level: 4
+    label: Forging, pressing, stamping and roll-forming of metal; powder metallurgy
+    code: '2591'
+    parent_id: 4610
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4612
+  fields:
+    standard: 4
+    level: 4
+    label: Treatment and coating of metals; machining
+    code: '2592'
+    parent_id: 4610
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4613
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of cutlery, hand tools and general hardware
+    code: '2593'
+    parent_id: 4610
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4614
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other fabricated metal products n.e.c.
+    code: '2599'
+    parent_id: 4610
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4615
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of computer, electronic and optical products
+    code: '26'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4616
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of electronic components and boards
+    code: '261'
+    parent_id: 4615
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4617
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of electronic components and boards
+    code: '2610'
+    parent_id: 4616
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4618
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of computers and peripheral equipment
+    code: '262'
+    parent_id: 4615
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4619
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of computers and peripheral equipment
+    code: '2620'
+    parent_id: 4618
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4620
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of communication equipment
+    code: '263'
+    parent_id: 4615
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4621
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of communication equipment
+    code: '2630'
+    parent_id: 4620
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4622
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of consumer electronics
+    code: '264'
+    parent_id: 4615
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4623
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of consumer electronics
+    code: '2640'
+    parent_id: 4622
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4624
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of measuring, testing, navigating and control equipment; watches
+      and clocks
+    code: '265'
+    parent_id: 4615
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4625
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of measuring, testing, navigating and control equipment
+    code: '2651'
+    parent_id: 4624
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4626
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of watches and clocks
+    code: '2652'
+    parent_id: 4624
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4627
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of irradiation, electromedical and electrotherapeutic equipment
+    code: '266'
+    parent_id: 4615
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4628
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of irradiation, electromedical and electrotherapeutic equipment
+    code: '2660'
+    parent_id: 4627
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4629
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of optical instruments and photographic equipment
+    code: '267'
+    parent_id: 4615
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4630
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of optical instruments and photographic equipment
+    code: '2670'
+    parent_id: 4629
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4631
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of magnetic and optical media
+    code: '268'
+    parent_id: 4615
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4632
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of magnetic and optical media
+    code: '2680'
+    parent_id: 4631
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4633
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of electrical equipment
+    code: '27'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4634
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of electric motors, generators, transformers and electricity
+      distribution and control apparatus
+    code: '271'
+    parent_id: 4633
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4635
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of electric motors, generators, transformers and electricity
+      distribution and control apparatus
+    code: '2710'
+    parent_id: 4634
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4636
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of batteries and accumulators
+    code: '272'
+    parent_id: 4633
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4637
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of batteries and accumulators
+    code: '2720'
+    parent_id: 4636
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4638
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of wiring and wiring devices
+    code: '273'
+    parent_id: 4633
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4639
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of fibre optic cables
+    code: '2731'
+    parent_id: 4638
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4640
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other electronic and electric wires and cables
+    code: '2732'
+    parent_id: 4638
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4641
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of wiring devices
+    code: '2733'
+    parent_id: 4638
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4642
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of electric lighting equipment
+    code: '274'
+    parent_id: 4633
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4643
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of electric lighting equipment
+    code: '2740'
+    parent_id: 4642
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4644
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of domestic appliances
+    code: '275'
+    parent_id: 4633
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4645
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of domestic appliances
+    code: '2750'
+    parent_id: 4644
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4646
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of other electrical equipment
+    code: '279'
+    parent_id: 4633
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4647
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other electrical equipment
+    code: '2790'
+    parent_id: 4646
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4648
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of machinery and equipment n.e.c.
+    code: '28'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4649
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of general-purpose machinery
+    code: '281'
+    parent_id: 4648
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4650
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of engines and turbines, except aircraft, vehicle and cycle
+      engines
+    code: '2811'
+    parent_id: 4649
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4651
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of fluid power equipment
+    code: '2812'
+    parent_id: 4649
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4652
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other pumps, compressors, taps and valves
+    code: '2813'
+    parent_id: 4649
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4653
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of bearings, gears, gearing and driving elements
+    code: '2814'
+    parent_id: 4649
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4654
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of ovens, furnaces and furnace burners
+    code: '2815'
+    parent_id: 4649
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4655
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of lifting and handling equipment
+    code: '2816'
+    parent_id: 4649
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4656
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of office machinery and equipment (except computers and peripheral
+      equipment)
+    code: '2817'
+    parent_id: 4649
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4657
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of power-driven hand tools
+    code: '2818'
+    parent_id: 4649
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4658
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other general-purpose machinery
+    code: '2819'
+    parent_id: 4649
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4659
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of special-purpose machinery
+    code: '282'
+    parent_id: 4648
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4660
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of agricultural and forestry machinery
+    code: '2821'
+    parent_id: 4659
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4661
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of metal-forming machinery and machine tools
+    code: '2822'
+    parent_id: 4659
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4662
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of machinery for metallurgy
+    code: '2823'
+    parent_id: 4659
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4663
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of machinery for mining, quarrying and construction
+    code: '2824'
+    parent_id: 4659
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4664
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of machinery for food, beverage and tobacco processing
+    code: '2825'
+    parent_id: 4659
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4665
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of machinery for textile, apparel and leather production
+    code: '2826'
+    parent_id: 4659
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4666
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other special-purpose machinery
+    code: '2829'
+    parent_id: 4659
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4667
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of motor vehicles, trailers and semi-trailers
+    code: '29'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4668
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of motor vehicles
+    code: '291'
+    parent_id: 4667
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4669
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of motor vehicles
+    code: '2910'
+    parent_id: 4668
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4670
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers
+      and semi-trailers
+    code: '292'
+    parent_id: 4667
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4671
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers
+      and semi-trailers
+    code: '2920'
+    parent_id: 4670
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4672
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of parts and accessories for motor vehicles
+    code: '293'
+    parent_id: 4667
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4673
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of parts and accessories for motor vehicles
+    code: '2930'
+    parent_id: 4672
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4674
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of other transport equipment
+    code: '30'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4675
+  fields:
+    standard: 4
+    level: 3
+    label: Building of ships and boats
+    code: '301'
+    parent_id: 4674
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4676
+  fields:
+    standard: 4
+    level: 4
+    label: Building of ships and floating structures
+    code: '3011'
+    parent_id: 4675
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4677
+  fields:
+    standard: 4
+    level: 4
+    label: Building of pleasure and sporting boats
+    code: '3012'
+    parent_id: 4675
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4678
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of railway locomotives and rolling stock
+    code: '302'
+    parent_id: 4674
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4679
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of railway locomotives and rolling stock
+    code: '3020'
+    parent_id: 4678
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4680
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of air and spacecraft and related machinery
+    code: '303'
+    parent_id: 4674
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4681
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of air and spacecraft and related machinery
+    code: '3030'
+    parent_id: 4680
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4682
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of military fighting vehicles
+    code: '304'
+    parent_id: 4674
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4683
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of military fighting vehicles
+    code: '3040'
+    parent_id: 4682
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4684
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of transport equipment n.e.c.
+    code: '309'
+    parent_id: 4674
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4685
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of motorcycles
+    code: '3091'
+    parent_id: 4684
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4686
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of bicycles and invalid carriages
+    code: '3092'
+    parent_id: 4684
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4687
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of other transport equipment n.e.c.
+    code: '3099'
+    parent_id: 4684
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4688
+  fields:
+    standard: 4
+    level: 2
+    label: Manufacture of furniture
+    code: '31'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4689
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of furniture
+    code: '310'
+    parent_id: 4688
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4690
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of furniture
+    code: '3100'
+    parent_id: 4689
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4691
+  fields:
+    standard: 4
+    level: 2
+    label: Other manufacturing
+    code: '32'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4692
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of jewellery, bijouterie and related articles
+    code: '321'
+    parent_id: 4691
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4693
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of jewellery and related articles
+    code: '3211'
+    parent_id: 4692
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4694
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of imitation jewellery and related articles
+    code: '3212'
+    parent_id: 4692
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4695
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of musical instruments
+    code: '322'
+    parent_id: 4691
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4696
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of musical instruments
+    code: '3220'
+    parent_id: 4695
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4697
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of sports goods
+    code: '323'
+    parent_id: 4691
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4698
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of sports goods
+    code: '3230'
+    parent_id: 4697
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4699
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of games and toys
+    code: '324'
+    parent_id: 4691
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4700
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of games and toys
+    code: '3240'
+    parent_id: 4699
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4701
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of medical and dental instruments and supplies
+    code: '325'
+    parent_id: 4691
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4702
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of medical and dental instruments and supplies
+    code: '3250'
+    parent_id: 4701
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4703
+  fields:
+    standard: 4
+    level: 3
+    label: Other manufacturing n.e.c.
+    code: '329'
+    parent_id: 4691
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4704
+  fields:
+    standard: 4
+    level: 4
+    label: Other manufacturing n.e.c.
+    code: '3290'
+    parent_id: 4703
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4705
+  fields:
+    standard: 4
+    level: 2
+    label: Repair and installation of machinery and equipment
+    code: '33'
+    parent_id: 4482
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4706
+  fields:
+    standard: 4
+    level: 3
+    label: Repair of fabricated metal products, machinery and equipment
+    code: '331'
+    parent_id: 4705
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4707
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of fabricated metal products
+    code: '3311'
+    parent_id: 4706
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4708
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of machinery
+    code: '3312'
+    parent_id: 4706
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4709
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of electronic and optical equipment
+    code: '3313'
+    parent_id: 4706
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4710
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of electrical equipment
+    code: '3314'
+    parent_id: 4706
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4711
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of transport equipment, except motor vehicles
+    code: '3315'
+    parent_id: 4706
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4712
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of other equipment
+    code: '3319'
+    parent_id: 4706
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4713
+  fields:
+    standard: 4
+    level: 3
+    label: Installation of industrial machinery and equipment
+    code: '332'
+    parent_id: 4705
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4714
+  fields:
+    standard: 4
+    level: 4
+    label: Installation of industrial machinery and equipment
+    code: '3320'
+    parent_id: 4713
+    top_parent_id: 4482
+- model: economy_sector_module.EconomySector
+  pk: 4715
+  fields:
+    standard: 4
+    level: 1
+    label: Electricity, gas, steam and air conditioning supply
+    code: D
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4716
+  fields:
+    standard: 4
+    level: 2
+    label: Electricity, gas, steam and air conditioning supply
+    code: '35'
+    parent_id: 4715
+    top_parent_id: 4715
+- model: economy_sector_module.EconomySector
+  pk: 4717
+  fields:
+    standard: 4
+    level: 3
+    label: Electric power generation, transmission and distribution
+    code: '351'
+    parent_id: 4716
+    top_parent_id: 4715
+- model: economy_sector_module.EconomySector
+  pk: 4718
+  fields:
+    standard: 4
+    level: 4
+    label: Electric power generation, transmission and distribution
+    code: '3510'
+    parent_id: 4717
+    top_parent_id: 4715
+- model: economy_sector_module.EconomySector
+  pk: 4719
+  fields:
+    standard: 4
+    level: 3
+    label: Manufacture of gas; distribution of gaseous fuels through mains
+    code: '352'
+    parent_id: 4716
+    top_parent_id: 4715
+- model: economy_sector_module.EconomySector
+  pk: 4720
+  fields:
+    standard: 4
+    level: 4
+    label: Manufacture of gas; distribution of gaseous fuels through mains
+    code: '3520'
+    parent_id: 4719
+    top_parent_id: 4715
+- model: economy_sector_module.EconomySector
+  pk: 4721
+  fields:
+    standard: 4
+    level: 3
+    label: Steam and air conditioning supply
+    code: '353'
+    parent_id: 4716
+    top_parent_id: 4715
+- model: economy_sector_module.EconomySector
+  pk: 4722
+  fields:
+    standard: 4
+    level: 4
+    label: Steam and air conditioning supply
+    code: '3530'
+    parent_id: 4721
+    top_parent_id: 4715
+- model: economy_sector_module.EconomySector
+  pk: 4723
+  fields:
+    standard: 4
+    level: 1
+    label: Water supply; sewerage, waste management and remediation activities
+    code: E
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4724
+  fields:
+    standard: 4
+    level: 2
+    label: Water collection, treatment and supply
+    code: '36'
+    parent_id: 4723
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4725
+  fields:
+    standard: 4
+    level: 3
+    label: Water collection, treatment and supply
+    code: '360'
+    parent_id: 4724
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4726
+  fields:
+    standard: 4
+    level: 4
+    label: Water collection, treatment and supply
+    code: '3600'
+    parent_id: 4725
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4727
+  fields:
+    standard: 4
+    level: 2
+    label: Sewerage
+    code: '37'
+    parent_id: 4723
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4728
+  fields:
+    standard: 4
+    level: 3
+    label: Sewerage
+    code: '370'
+    parent_id: 4727
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4729
+  fields:
+    standard: 4
+    level: 4
+    label: Sewerage
+    code: '3700'
+    parent_id: 4728
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4730
+  fields:
+    standard: 4
+    level: 2
+    label: Waste collection, treatment and disposal activities; materials recovery
+    code: '38'
+    parent_id: 4723
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4731
+  fields:
+    standard: 4
+    level: 3
+    label: Waste collection
+    code: '381'
+    parent_id: 4730
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4732
+  fields:
+    standard: 4
+    level: 4
+    label: Collection of non-hazardous waste
+    code: '3811'
+    parent_id: 4731
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4733
+  fields:
+    standard: 4
+    level: 4
+    label: Collection of hazardous waste
+    code: '3812'
+    parent_id: 4731
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4734
+  fields:
+    standard: 4
+    level: 3
+    label: Waste treatment and disposal
+    code: '382'
+    parent_id: 4730
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4735
+  fields:
+    standard: 4
+    level: 4
+    label: Treatment and disposal of non-hazardous waste
+    code: '3821'
+    parent_id: 4734
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4736
+  fields:
+    standard: 4
+    level: 4
+    label: Treatment and disposal of hazardous waste
+    code: '3822'
+    parent_id: 4734
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4737
+  fields:
+    standard: 4
+    level: 3
+    label: Materials recovery
+    code: '383'
+    parent_id: 4730
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4738
+  fields:
+    standard: 4
+    level: 4
+    label: Materials recovery
+    code: '3830'
+    parent_id: 4737
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4739
+  fields:
+    standard: 4
+    level: 2
+    label: Remediation activities and other waste management services
+    code: '39'
+    parent_id: 4723
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4740
+  fields:
+    standard: 4
+    level: 3
+    label: Remediation activities and other waste management services
+    code: '390'
+    parent_id: 4739
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4741
+  fields:
+    standard: 4
+    level: 4
+    label: Remediation activities and other waste management services
+    code: '3900'
+    parent_id: 4740
+    top_parent_id: 4723
+- model: economy_sector_module.EconomySector
+  pk: 4742
+  fields:
+    standard: 4
+    level: 1
+    label: Construction
+    code: F
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4743
+  fields:
+    standard: 4
+    level: 2
+    label: Construction of buildings
+    code: '41'
+    parent_id: 4742
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4744
+  fields:
+    standard: 4
+    level: 3
+    label: Construction of buildings
+    code: '410'
+    parent_id: 4743
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4745
+  fields:
+    standard: 4
+    level: 4
+    label: Construction of buildings
+    code: '4100'
+    parent_id: 4744
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4746
+  fields:
+    standard: 4
+    level: 2
+    label: Civil engineering
+    code: '42'
+    parent_id: 4742
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4747
+  fields:
+    standard: 4
+    level: 3
+    label: Construction of roads and railways
+    code: '421'
+    parent_id: 4746
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4748
+  fields:
+    standard: 4
+    level: 4
+    label: Construction of roads and railways
+    code: '4210'
+    parent_id: 4747
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4749
+  fields:
+    standard: 4
+    level: 3
+    label: Construction of utility projects
+    code: '422'
+    parent_id: 4746
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4750
+  fields:
+    standard: 4
+    level: 4
+    label: Construction of utility projects
+    code: '4220'
+    parent_id: 4749
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4751
+  fields:
+    standard: 4
+    level: 3
+    label: Construction of other civil engineering projects
+    code: '429'
+    parent_id: 4746
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4752
+  fields:
+    standard: 4
+    level: 4
+    label: Construction of other civil engineering projects
+    code: '4290'
+    parent_id: 4751
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4753
+  fields:
+    standard: 4
+    level: 2
+    label: Specialized construction activities
+    code: '43'
+    parent_id: 4742
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4754
+  fields:
+    standard: 4
+    level: 3
+    label: Demolition and site preparation
+    code: '431'
+    parent_id: 4753
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4755
+  fields:
+    standard: 4
+    level: 4
+    label: Demolition
+    code: '4311'
+    parent_id: 4754
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4756
+  fields:
+    standard: 4
+    level: 4
+    label: Site preparation
+    code: '4312'
+    parent_id: 4754
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4757
+  fields:
+    standard: 4
+    level: 3
+    label: Electrical, plumbing and other construction installation activities
+    code: '432'
+    parent_id: 4753
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4758
+  fields:
+    standard: 4
+    level: 4
+    label: Electrical installation
+    code: '4321'
+    parent_id: 4757
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4759
+  fields:
+    standard: 4
+    level: 4
+    label: Plumbing, heat and air-conditioning installation
+    code: '4322'
+    parent_id: 4757
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4760
+  fields:
+    standard: 4
+    level: 4
+    label: Other construction installation
+    code: '4329'
+    parent_id: 4757
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4761
+  fields:
+    standard: 4
+    level: 3
+    label: Building completion and finishing
+    code: '433'
+    parent_id: 4753
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4762
+  fields:
+    standard: 4
+    level: 4
+    label: Building completion and finishing
+    code: '4330'
+    parent_id: 4761
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4763
+  fields:
+    standard: 4
+    level: 3
+    label: Other specialized construction activities
+    code: '439'
+    parent_id: 4753
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4764
+  fields:
+    standard: 4
+    level: 4
+    label: Other specialized construction activities
+    code: '4390'
+    parent_id: 4763
+    top_parent_id: 4742
+- model: economy_sector_module.EconomySector
+  pk: 4765
+  fields:
+    standard: 4
+    level: 1
+    label: Wholesale and retail trade; repair of motor vehicles and motorcycles
+    code: G
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4766
+  fields:
+    standard: 4
+    level: 2
+    label: Wholesale and retail trade and repair of motor vehicles and motorcycles
+    code: '45'
+    parent_id: 4765
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4767
+  fields:
+    standard: 4
+    level: 3
+    label: Sale of motor vehicles
+    code: '451'
+    parent_id: 4766
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4768
+  fields:
+    standard: 4
+    level: 4
+    label: Sale of motor vehicles
+    code: '4510'
+    parent_id: 4767
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4769
+  fields:
+    standard: 4
+    level: 3
+    label: Maintenance and repair of motor vehicles
+    code: '452'
+    parent_id: 4766
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4770
+  fields:
+    standard: 4
+    level: 4
+    label: Maintenance and repair of motor vehicles
+    code: '4520'
+    parent_id: 4769
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4771
+  fields:
+    standard: 4
+    level: 3
+    label: Sale of motor vehicle parts and accessories
+    code: '453'
+    parent_id: 4766
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4772
+  fields:
+    standard: 4
+    level: 4
+    label: Sale of motor vehicle parts and accessories
+    code: '4530'
+    parent_id: 4771
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4773
+  fields:
+    standard: 4
+    level: 3
+    label: Sale, maintenance and repair of motorcycles and related parts and accessories
+    code: '454'
+    parent_id: 4766
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4774
+  fields:
+    standard: 4
+    level: 4
+    label: Sale, maintenance and repair of motorcycles and related parts and accessories
+    code: '4540'
+    parent_id: 4773
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4775
+  fields:
+    standard: 4
+    level: 2
+    label: Wholesale trade, except of motor vehicles and motorcycles
+    code: '46'
+    parent_id: 4765
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4776
+  fields:
+    standard: 4
+    level: 3
+    label: Wholesale on a fee or contract basis
+    code: '461'
+    parent_id: 4775
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4777
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale on a fee or contract basis
+    code: '4610'
+    parent_id: 4776
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4778
+  fields:
+    standard: 4
+    level: 3
+    label: Wholesale of agricultural raw materials and live animals
+    code: '462'
+    parent_id: 4775
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4779
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale of agricultural raw materials and live animals
+    code: '4620'
+    parent_id: 4778
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4780
+  fields:
+    standard: 4
+    level: 3
+    label: Wholesale of food, beverages and tobacco
+    code: '463'
+    parent_id: 4775
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4781
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale of food, beverages and tobacco
+    code: '4630'
+    parent_id: 4780
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4782
+  fields:
+    standard: 4
+    level: 3
+    label: Wholesale of household goods
+    code: '464'
+    parent_id: 4775
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4783
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale of textiles, clothing and footwear
+    code: '4641'
+    parent_id: 4782
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4784
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale of other household goods
+    code: '4649'
+    parent_id: 4782
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4785
+  fields:
+    standard: 4
+    level: 3
+    label: Wholesale of machinery, equipment and supplies
+    code: '465'
+    parent_id: 4775
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4786
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale of computers, computer peripheral equipment and software
+    code: '4651'
+    parent_id: 4785
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4787
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale of electronic and telecommunications equipment and parts
+    code: '4652'
+    parent_id: 4785
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4788
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale of agricultural machinery, equipment and supplies
+    code: '4653'
+    parent_id: 4785
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4789
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale of other machinery and equipment
+    code: '4659'
+    parent_id: 4785
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4790
+  fields:
+    standard: 4
+    level: 3
+    label: Other specialized wholesale
+    code: '466'
+    parent_id: 4775
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4791
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale of solid, liquid and gaseous fuels and related products
+    code: '4661'
+    parent_id: 4790
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4792
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale of metals and metal ores
+    code: '4662'
+    parent_id: 4790
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4793
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale of construction materials, hardware, plumbing and heating equipment
+      and supplies
+    code: '4663'
+    parent_id: 4790
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4794
+  fields:
+    standard: 4
+    level: 4
+    label: Wholesale of waste and scrap and other products n.e.c.
+    code: '4669'
+    parent_id: 4790
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4795
+  fields:
+    standard: 4
+    level: 3
+    label: Non-specialized wholesale trade
+    code: '469'
+    parent_id: 4775
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4796
+  fields:
+    standard: 4
+    level: 4
+    label: Non-specialized wholesale trade
+    code: '4690'
+    parent_id: 4795
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4797
+  fields:
+    standard: 4
+    level: 2
+    label: Retail trade, except of motor vehicles and motorcycles
+    code: '47'
+    parent_id: 4765
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4798
+  fields:
+    standard: 4
+    level: 3
+    label: Retail sale in non-specialized stores
+    code: '471'
+    parent_id: 4797
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4799
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale in non-specialized stores with food, beverages or tobacco predominating
+    code: '4711'
+    parent_id: 4798
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4800
+  fields:
+    standard: 4
+    level: 4
+    label: Other retail sale in non-specialized stores
+    code: '4719'
+    parent_id: 4798
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4801
+  fields:
+    standard: 4
+    level: 3
+    label: Retail sale of food, beverages and tobacco in specialized stores
+    code: '472'
+    parent_id: 4797
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4802
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of food in specialized stores
+    code: '4721'
+    parent_id: 4801
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4803
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of beverages in specialized stores
+    code: '4722'
+    parent_id: 4801
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4804
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of tobacco products in specialized stores
+    code: '4723'
+    parent_id: 4801
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4805
+  fields:
+    standard: 4
+    level: 3
+    label: Retail sale of automotive fuel in specialized stores
+    code: '473'
+    parent_id: 4797
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4806
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of automotive fuel in specialized stores
+    code: '4730'
+    parent_id: 4805
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4807
+  fields:
+    standard: 4
+    level: 3
+    label: Retail sale of information and communications equipment in specialized
+      stores
+    code: '474'
+    parent_id: 4797
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4808
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of computers, peripheral units, software and telecommunications
+      equipment in specialized stores
+    code: '4741'
+    parent_id: 4807
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4809
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of audio and video equipment in specialized stores
+    code: '4742'
+    parent_id: 4807
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4810
+  fields:
+    standard: 4
+    level: 3
+    label: Retail sale of other household equipment in specialized stores
+    code: '475'
+    parent_id: 4797
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4811
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of textiles in specialized stores
+    code: '4751'
+    parent_id: 4810
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4812
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of hardware, paints and glass in specialized stores
+    code: '4752'
+    parent_id: 4810
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4813
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of carpets, rugs, wall and floor coverings in specialized stores
+    code: '4753'
+    parent_id: 4810
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4814
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of electrical household appliances, furniture, lighting equipment
+      and other household articles in specialized stores
+    code: '4759'
+    parent_id: 4810
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4815
+  fields:
+    standard: 4
+    level: 3
+    label: Retail sale of cultural and recreation goods in specialized stores
+    code: '476'
+    parent_id: 4797
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4816
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of books, newspapers and stationary in specialized stores
+    code: '4761'
+    parent_id: 4815
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4817
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of music and video recordings in specialized stores
+    code: '4762'
+    parent_id: 4815
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4818
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of sporting equipment in specialized stores
+    code: '4763'
+    parent_id: 4815
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4819
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of games and toys in specialized stores
+    code: '4764'
+    parent_id: 4815
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4820
+  fields:
+    standard: 4
+    level: 3
+    label: Retail sale of other goods in specialized stores
+    code: '477'
+    parent_id: 4797
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4821
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of clothing, footwear and leather articles in specialized stores
+    code: '4771'
+    parent_id: 4820
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4822
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of pharmaceutical and medical goods, cosmetic and toilet articles
+      in specialized stores
+    code: '4772'
+    parent_id: 4820
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4823
+  fields:
+    standard: 4
+    level: 4
+    label: Other retail sale of new goods in specialized stores
+    code: '4773'
+    parent_id: 4820
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4824
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale of second-hand goods
+    code: '4774'
+    parent_id: 4820
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4825
+  fields:
+    standard: 4
+    level: 3
+    label: Retail sale via stalls and markets
+    code: '478'
+    parent_id: 4797
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4826
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale via stalls and markets of food, beverages and tobacco products
+    code: '4781'
+    parent_id: 4825
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4827
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale via stalls and markets of textiles, clothing and footwear
+    code: '4782'
+    parent_id: 4825
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4828
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale via stalls and markets of other goods
+    code: '4789'
+    parent_id: 4825
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4829
+  fields:
+    standard: 4
+    level: 3
+    label: Retail trade not in stores, stalls or markets
+    code: '479'
+    parent_id: 4797
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4830
+  fields:
+    standard: 4
+    level: 4
+    label: Retail sale via mail order houses or via Internet
+    code: '4791'
+    parent_id: 4829
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4831
+  fields:
+    standard: 4
+    level: 4
+    label: Other retail sale not in stores, stalls or markets
+    code: '4799'
+    parent_id: 4829
+    top_parent_id: 4765
+- model: economy_sector_module.EconomySector
+  pk: 4832
+  fields:
+    standard: 4
+    level: 1
+    label: Transportation and storage
+    code: H
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4833
+  fields:
+    standard: 4
+    level: 2
+    label: Land transport and transport via pipelines
+    code: '49'
+    parent_id: 4832
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4834
+  fields:
+    standard: 4
+    level: 3
+    label: Transport via railways
+    code: '491'
+    parent_id: 4833
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4835
+  fields:
+    standard: 4
+    level: 4
+    label: Passenger rail transport, interurban
+    code: '4911'
+    parent_id: 4834
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4836
+  fields:
+    standard: 4
+    level: 4
+    label: Freight rail transport
+    code: '4912'
+    parent_id: 4834
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4837
+  fields:
+    standard: 4
+    level: 3
+    label: Other land transport
+    code: '492'
+    parent_id: 4833
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4838
+  fields:
+    standard: 4
+    level: 4
+    label: Urban and suburban passenger land transport
+    code: '4921'
+    parent_id: 4837
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4839
+  fields:
+    standard: 4
+    level: 4
+    label: Other passenger land transport
+    code: '4922'
+    parent_id: 4837
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4840
+  fields:
+    standard: 4
+    level: 4
+    label: Freight transport by road
+    code: '4923'
+    parent_id: 4837
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4841
+  fields:
+    standard: 4
+    level: 3
+    label: Transport via pipeline
+    code: '493'
+    parent_id: 4833
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4842
+  fields:
+    standard: 4
+    level: 4
+    label: Transport via pipeline
+    code: '4930'
+    parent_id: 4841
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4843
+  fields:
+    standard: 4
+    level: 2
+    label: Water transport
+    code: '50'
+    parent_id: 4832
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4844
+  fields:
+    standard: 4
+    level: 3
+    label: Sea and coastal water transport
+    code: '501'
+    parent_id: 4843
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4845
+  fields:
+    standard: 4
+    level: 4
+    label: Sea and coastal passenger water transport
+    code: '5011'
+    parent_id: 4844
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4846
+  fields:
+    standard: 4
+    level: 4
+    label: Sea and coastal freight water transport
+    code: '5012'
+    parent_id: 4844
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4847
+  fields:
+    standard: 4
+    level: 3
+    label: Inland water transport
+    code: '502'
+    parent_id: 4843
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4848
+  fields:
+    standard: 4
+    level: 4
+    label: Inland passenger water transport
+    code: '5021'
+    parent_id: 4847
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4849
+  fields:
+    standard: 4
+    level: 4
+    label: Inland freight water transport
+    code: '5022'
+    parent_id: 4847
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4850
+  fields:
+    standard: 4
+    level: 2
+    label: Air transport
+    code: '51'
+    parent_id: 4832
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4851
+  fields:
+    standard: 4
+    level: 3
+    label: Passenger air transport
+    code: '511'
+    parent_id: 4850
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4852
+  fields:
+    standard: 4
+    level: 4
+    label: Passenger air transport
+    code: '5110'
+    parent_id: 4851
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4853
+  fields:
+    standard: 4
+    level: 3
+    label: Freight air transport
+    code: '512'
+    parent_id: 4850
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4854
+  fields:
+    standard: 4
+    level: 4
+    label: Freight air transport
+    code: '5120'
+    parent_id: 4853
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4855
+  fields:
+    standard: 4
+    level: 2
+    label: Warehousing and support activities for transportation
+    code: '52'
+    parent_id: 4832
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4856
+  fields:
+    standard: 4
+    level: 3
+    label: Warehousing and storage
+    code: '521'
+    parent_id: 4855
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4857
+  fields:
+    standard: 4
+    level: 4
+    label: Warehousing and storage
+    code: '5210'
+    parent_id: 4856
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4858
+  fields:
+    standard: 4
+    level: 3
+    label: Support activities for transportation
+    code: '522'
+    parent_id: 4855
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4859
+  fields:
+    standard: 4
+    level: 4
+    label: Service activities incidental to land transportation
+    code: '5221'
+    parent_id: 4858
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4860
+  fields:
+    standard: 4
+    level: 4
+    label: Service activities incidental to water transportation
+    code: '5222'
+    parent_id: 4858
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4861
+  fields:
+    standard: 4
+    level: 4
+    label: Service activities incidental to air transportation
+    code: '5223'
+    parent_id: 4858
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4862
+  fields:
+    standard: 4
+    level: 4
+    label: Cargo handling
+    code: '5224'
+    parent_id: 4858
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4863
+  fields:
+    standard: 4
+    level: 4
+    label: Other transportation support activities
+    code: '5229'
+    parent_id: 4858
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4864
+  fields:
+    standard: 4
+    level: 2
+    label: Postal and courier activities
+    code: '53'
+    parent_id: 4832
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4865
+  fields:
+    standard: 4
+    level: 3
+    label: Postal activities
+    code: '531'
+    parent_id: 4864
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4866
+  fields:
+    standard: 4
+    level: 4
+    label: Postal activities
+    code: '5310'
+    parent_id: 4865
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4867
+  fields:
+    standard: 4
+    level: 3
+    label: Courier activities
+    code: '532'
+    parent_id: 4864
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4868
+  fields:
+    standard: 4
+    level: 4
+    label: Courier activities
+    code: '5320'
+    parent_id: 4867
+    top_parent_id: 4832
+- model: economy_sector_module.EconomySector
+  pk: 4869
+  fields:
+    standard: 4
+    level: 1
+    label: Accommodation and food service activities
+    code: I
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4870
+  fields:
+    standard: 4
+    level: 2
+    label: Accommodation
+    code: '55'
+    parent_id: 4869
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4871
+  fields:
+    standard: 4
+    level: 3
+    label: Short term accommodation activities
+    code: '551'
+    parent_id: 4870
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4872
+  fields:
+    standard: 4
+    level: 4
+    label: Short term accommodation activities
+    code: '5510'
+    parent_id: 4871
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4873
+  fields:
+    standard: 4
+    level: 3
+    label: Camping grounds, recreational vehicle parks and trailer parks
+    code: '552'
+    parent_id: 4870
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4874
+  fields:
+    standard: 4
+    level: 4
+    label: Camping grounds, recreational vehicle parks and trailer parks
+    code: '5520'
+    parent_id: 4873
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4875
+  fields:
+    standard: 4
+    level: 3
+    label: Other accommodation
+    code: '559'
+    parent_id: 4870
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4876
+  fields:
+    standard: 4
+    level: 4
+    label: Other accommodation
+    code: '5590'
+    parent_id: 4875
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4877
+  fields:
+    standard: 4
+    level: 2
+    label: Food and beverage service activities
+    code: '56'
+    parent_id: 4869
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4878
+  fields:
+    standard: 4
+    level: 3
+    label: Restaurants and mobile food service activities
+    code: '561'
+    parent_id: 4877
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4879
+  fields:
+    standard: 4
+    level: 4
+    label: Restaurants and mobile food service activities
+    code: '5610'
+    parent_id: 4878
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4880
+  fields:
+    standard: 4
+    level: 3
+    label: Event catering and other food service activities
+    code: '562'
+    parent_id: 4877
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4881
+  fields:
+    standard: 4
+    level: 4
+    label: Event catering
+    code: '5621'
+    parent_id: 4880
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4882
+  fields:
+    standard: 4
+    level: 4
+    label: Other food service activities
+    code: '5629'
+    parent_id: 4880
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4883
+  fields:
+    standard: 4
+    level: 3
+    label: Beverage serving activities
+    code: '563'
+    parent_id: 4877
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4884
+  fields:
+    standard: 4
+    level: 4
+    label: Beverage serving activities
+    code: '5630'
+    parent_id: 4883
+    top_parent_id: 4869
+- model: economy_sector_module.EconomySector
+  pk: 4885
+  fields:
+    standard: 4
+    level: 1
+    label: Information and communication
+    code: J
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4886
+  fields:
+    standard: 4
+    level: 2
+    label: Publishing activities
+    code: '58'
+    parent_id: 4885
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4887
+  fields:
+    standard: 4
+    level: 3
+    label: Publishing of books, periodicals and other publishing activities
+    code: '581'
+    parent_id: 4886
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4888
+  fields:
+    standard: 4
+    level: 4
+    label: Book publishing
+    code: '5811'
+    parent_id: 4887
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4889
+  fields:
+    standard: 4
+    level: 4
+    label: Publishing of directories and mailing lists
+    code: '5812'
+    parent_id: 4887
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4890
+  fields:
+    standard: 4
+    level: 4
+    label: Publishing of newspapers, journals and periodicals
+    code: '5813'
+    parent_id: 4887
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4891
+  fields:
+    standard: 4
+    level: 4
+    label: Other publishing activities
+    code: '5819'
+    parent_id: 4887
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4892
+  fields:
+    standard: 4
+    level: 3
+    label: Software publishing
+    code: '582'
+    parent_id: 4886
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4893
+  fields:
+    standard: 4
+    level: 4
+    label: Software publishing
+    code: '5820'
+    parent_id: 4892
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4894
+  fields:
+    standard: 4
+    level: 2
+    label: Motion picture, video and television programme production, sound recording
+      and music publishing activities
+    code: '59'
+    parent_id: 4885
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4895
+  fields:
+    standard: 4
+    level: 3
+    label: Motion picture, video and television programme activities
+    code: '591'
+    parent_id: 4894
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4896
+  fields:
+    standard: 4
+    level: 4
+    label: Motion picture, video and television programme production activities
+    code: '5911'
+    parent_id: 4895
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4897
+  fields:
+    standard: 4
+    level: 4
+    label: Motion picture, video and television programme post-production activities
+    code: '5912'
+    parent_id: 4895
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4898
+  fields:
+    standard: 4
+    level: 4
+    label: Motion picture, video and television programme distribution activities
+    code: '5913'
+    parent_id: 4895
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4899
+  fields:
+    standard: 4
+    level: 4
+    label: Motion picture projection activities
+    code: '5914'
+    parent_id: 4895
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4900
+  fields:
+    standard: 4
+    level: 3
+    label: Sound recording and music publishing activities
+    code: '592'
+    parent_id: 4894
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4901
+  fields:
+    standard: 4
+    level: 4
+    label: Sound recording and music publishing activities
+    code: '5920'
+    parent_id: 4900
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4902
+  fields:
+    standard: 4
+    level: 2
+    label: Programming and broadcasting activities
+    code: '60'
+    parent_id: 4885
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4903
+  fields:
+    standard: 4
+    level: 3
+    label: Radio broadcasting
+    code: '601'
+    parent_id: 4902
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4904
+  fields:
+    standard: 4
+    level: 4
+    label: Radio broadcasting
+    code: '6010'
+    parent_id: 4903
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4905
+  fields:
+    standard: 4
+    level: 3
+    label: Television programming and broadcasting activities
+    code: '602'
+    parent_id: 4902
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4906
+  fields:
+    standard: 4
+    level: 4
+    label: Television programming and broadcasting activities
+    code: '6020'
+    parent_id: 4905
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4907
+  fields:
+    standard: 4
+    level: 2
+    label: Telecommunications
+    code: '61'
+    parent_id: 4885
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4908
+  fields:
+    standard: 4
+    level: 3
+    label: Wired telecommunications activities
+    code: '611'
+    parent_id: 4907
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4909
+  fields:
+    standard: 4
+    level: 4
+    label: Wired telecommunications activities
+    code: '6110'
+    parent_id: 4908
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4910
+  fields:
+    standard: 4
+    level: 3
+    label: Wireless telecommunications activities
+    code: '612'
+    parent_id: 4907
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4911
+  fields:
+    standard: 4
+    level: 4
+    label: Wireless telecommunications activities
+    code: '6120'
+    parent_id: 4910
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4912
+  fields:
+    standard: 4
+    level: 3
+    label: Satellite telecommunications activities
+    code: '613'
+    parent_id: 4907
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4913
+  fields:
+    standard: 4
+    level: 4
+    label: Satellite telecommunications activities
+    code: '6130'
+    parent_id: 4912
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4914
+  fields:
+    standard: 4
+    level: 3
+    label: Other telecommunications activities
+    code: '619'
+    parent_id: 4907
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4915
+  fields:
+    standard: 4
+    level: 4
+    label: Other telecommunications activities
+    code: '6190'
+    parent_id: 4914
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4916
+  fields:
+    standard: 4
+    level: 2
+    label: Computer programming, consultancy and related activities
+    code: '62'
+    parent_id: 4885
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4917
+  fields:
+    standard: 4
+    level: 3
+    label: Computer programming, consultancy and related activities
+    code: '620'
+    parent_id: 4916
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4918
+  fields:
+    standard: 4
+    level: 4
+    label: Computer programming activities
+    code: '6201'
+    parent_id: 4917
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4919
+  fields:
+    standard: 4
+    level: 4
+    label: Computer consultancy and computer facilities management activities
+    code: '6202'
+    parent_id: 4917
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4920
+  fields:
+    standard: 4
+    level: 4
+    label: Other information technology and computer service activities
+    code: '6209'
+    parent_id: 4917
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4921
+  fields:
+    standard: 4
+    level: 2
+    label: Information service activities
+    code: '63'
+    parent_id: 4885
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4922
+  fields:
+    standard: 4
+    level: 3
+    label: Data processing, hosting and related activities; web portals
+    code: '631'
+    parent_id: 4921
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4923
+  fields:
+    standard: 4
+    level: 4
+    label: Data processing, hosting and related activities
+    code: '6311'
+    parent_id: 4922
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4924
+  fields:
+    standard: 4
+    level: 4
+    label: Web portals
+    code: '6312'
+    parent_id: 4922
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4925
+  fields:
+    standard: 4
+    level: 3
+    label: Other information service activities
+    code: '639'
+    parent_id: 4921
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4926
+  fields:
+    standard: 4
+    level: 4
+    label: News agency activities
+    code: '6391'
+    parent_id: 4925
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4927
+  fields:
+    standard: 4
+    level: 4
+    label: Other information service activities n.e.c.
+    code: '6399'
+    parent_id: 4925
+    top_parent_id: 4885
+- model: economy_sector_module.EconomySector
+  pk: 4928
+  fields:
+    standard: 4
+    level: 1
+    label: Financial and insurance activities
+    code: K
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4929
+  fields:
+    standard: 4
+    level: 2
+    label: Financial service activities, except insurance and pension funding
+    code: '64'
+    parent_id: 4928
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4930
+  fields:
+    standard: 4
+    level: 3
+    label: Monetary intermediation
+    code: '641'
+    parent_id: 4929
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4931
+  fields:
+    standard: 4
+    level: 4
+    label: Central banking
+    code: '6411'
+    parent_id: 4930
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4932
+  fields:
+    standard: 4
+    level: 4
+    label: Other monetary intermediation
+    code: '6419'
+    parent_id: 4930
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4933
+  fields:
+    standard: 4
+    level: 3
+    label: Activities of holding companies
+    code: '642'
+    parent_id: 4929
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4934
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of holding companies
+    code: '6420'
+    parent_id: 4933
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4935
+  fields:
+    standard: 4
+    level: 3
+    label: Trusts, funds and similar financial entities
+    code: '643'
+    parent_id: 4929
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4936
+  fields:
+    standard: 4
+    level: 4
+    label: Trusts, funds and similar financial entities
+    code: '6430'
+    parent_id: 4935
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4937
+  fields:
+    standard: 4
+    level: 3
+    label: Other financial service activities, except insurance and pension funding
+      activities
+    code: '649'
+    parent_id: 4929
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4938
+  fields:
+    standard: 4
+    level: 4
+    label: Financial leasing
+    code: '6491'
+    parent_id: 4937
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4939
+  fields:
+    standard: 4
+    level: 4
+    label: Other credit granting
+    code: '6492'
+    parent_id: 4937
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4940
+  fields:
+    standard: 4
+    level: 4
+    label: Other financial service activities, except insurance and pension funding
+      activities, n.e.c.
+    code: '6499'
+    parent_id: 4937
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4941
+  fields:
+    standard: 4
+    level: 2
+    label: Insurance, reinsurance and pension funding, except compulsory social security
+    code: '65'
+    parent_id: 4928
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4942
+  fields:
+    standard: 4
+    level: 3
+    label: Insurance
+    code: '651'
+    parent_id: 4941
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4943
+  fields:
+    standard: 4
+    level: 4
+    label: Life insurance
+    code: '6511'
+    parent_id: 4942
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4944
+  fields:
+    standard: 4
+    level: 4
+    label: Non-life insurance
+    code: '6512'
+    parent_id: 4942
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4945
+  fields:
+    standard: 4
+    level: 3
+    label: Reinsurance
+    code: '652'
+    parent_id: 4941
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4946
+  fields:
+    standard: 4
+    level: 4
+    label: Reinsurance
+    code: '6520'
+    parent_id: 4945
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4947
+  fields:
+    standard: 4
+    level: 3
+    label: Pension funding
+    code: '653'
+    parent_id: 4941
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4948
+  fields:
+    standard: 4
+    level: 4
+    label: Pension funding
+    code: '6530'
+    parent_id: 4947
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4949
+  fields:
+    standard: 4
+    level: 2
+    label: Activities auxiliary to financial service and insurance activities
+    code: '66'
+    parent_id: 4928
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4950
+  fields:
+    standard: 4
+    level: 3
+    label: Activities auxiliary to financial service activities, except insurance
+      and pension funding
+    code: '661'
+    parent_id: 4949
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4951
+  fields:
+    standard: 4
+    level: 4
+    label: Administration of financial markets
+    code: '6611'
+    parent_id: 4950
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4952
+  fields:
+    standard: 4
+    level: 4
+    label: Security and commodity contracts brokerage
+    code: '6612'
+    parent_id: 4950
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4953
+  fields:
+    standard: 4
+    level: 4
+    label: Other activities auxiliary to financial service activities
+    code: '6619'
+    parent_id: 4950
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4954
+  fields:
+    standard: 4
+    level: 3
+    label: Activities auxiliary to insurance and pension funding
+    code: '662'
+    parent_id: 4949
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4955
+  fields:
+    standard: 4
+    level: 4
+    label: Risk and damage evaluation
+    code: '6621'
+    parent_id: 4954
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4956
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of insurance agents and brokers
+    code: '6622'
+    parent_id: 4954
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4957
+  fields:
+    standard: 4
+    level: 4
+    label: Other activities auxiliary to insurance and pension funding
+    code: '6629'
+    parent_id: 4954
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4958
+  fields:
+    standard: 4
+    level: 3
+    label: Fund management activities
+    code: '663'
+    parent_id: 4949
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4959
+  fields:
+    standard: 4
+    level: 4
+    label: Fund management activities
+    code: '6630'
+    parent_id: 4958
+    top_parent_id: 4928
+- model: economy_sector_module.EconomySector
+  pk: 4960
+  fields:
+    standard: 4
+    level: 1
+    label: Real estate activities
+    code: L
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4961
+  fields:
+    standard: 4
+    level: 2
+    label: Real estate activities
+    code: '68'
+    parent_id: 4960
+    top_parent_id: 4960
+- model: economy_sector_module.EconomySector
+  pk: 4962
+  fields:
+    standard: 4
+    level: 3
+    label: Real estate activities with own or leased property
+    code: '681'
+    parent_id: 4961
+    top_parent_id: 4960
+- model: economy_sector_module.EconomySector
+  pk: 4963
+  fields:
+    standard: 4
+    level: 4
+    label: Real estate activities with own or leased property
+    code: '6810'
+    parent_id: 4962
+    top_parent_id: 4960
+- model: economy_sector_module.EconomySector
+  pk: 4964
+  fields:
+    standard: 4
+    level: 3
+    label: Real estate activities on a fee or contract basis
+    code: '682'
+    parent_id: 4961
+    top_parent_id: 4960
+- model: economy_sector_module.EconomySector
+  pk: 4965
+  fields:
+    standard: 4
+    level: 4
+    label: Real estate activities on a fee or contract basis
+    code: '6820'
+    parent_id: 4964
+    top_parent_id: 4960
+- model: economy_sector_module.EconomySector
+  pk: 4966
+  fields:
+    standard: 4
+    level: 1
+    label: Professional, scientific and technical activities
+    code: M
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 4967
+  fields:
+    standard: 4
+    level: 2
+    label: Legal and accounting activities
+    code: '69'
+    parent_id: 4966
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4968
+  fields:
+    standard: 4
+    level: 3
+    label: Legal activities
+    code: '691'
+    parent_id: 4967
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4969
+  fields:
+    standard: 4
+    level: 4
+    label: Legal activities
+    code: '6910'
+    parent_id: 4968
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4970
+  fields:
+    standard: 4
+    level: 3
+    label: Accounting, bookkeeping and auditing activities; tax consultancy
+    code: '692'
+    parent_id: 4967
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4971
+  fields:
+    standard: 4
+    level: 4
+    label: Accounting, bookkeeping and auditing activities; tax consultancy
+    code: '6920'
+    parent_id: 4970
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4972
+  fields:
+    standard: 4
+    level: 2
+    label: Activities of head offices; management consultancy activities
+    code: '70'
+    parent_id: 4966
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4973
+  fields:
+    standard: 4
+    level: 3
+    label: Activities of head offices
+    code: '701'
+    parent_id: 4972
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4974
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of head offices
+    code: '7010'
+    parent_id: 4973
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4975
+  fields:
+    standard: 4
+    level: 3
+    label: Management consultancy activities
+    code: '702'
+    parent_id: 4972
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4976
+  fields:
+    standard: 4
+    level: 4
+    label: Management consultancy activities
+    code: '7020'
+    parent_id: 4975
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4977
+  fields:
+    standard: 4
+    level: 2
+    label: Architectural and engineering activities; technical testing and analysis
+    code: '71'
+    parent_id: 4966
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4978
+  fields:
+    standard: 4
+    level: 3
+    label: Architectural and engineering activities and related technical consultancy
+    code: '711'
+    parent_id: 4977
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4979
+  fields:
+    standard: 4
+    level: 4
+    label: Architectural and engineering activities and related technical consultancy
+    code: '7110'
+    parent_id: 4978
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4980
+  fields:
+    standard: 4
+    level: 3
+    label: Technical testing and analysis
+    code: '712'
+    parent_id: 4977
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4981
+  fields:
+    standard: 4
+    level: 4
+    label: Technical testing and analysis
+    code: '7120'
+    parent_id: 4980
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4982
+  fields:
+    standard: 4
+    level: 2
+    label: Scientific research and development
+    code: '72'
+    parent_id: 4966
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4983
+  fields:
+    standard: 4
+    level: 3
+    label: Research and experimental development on natural sciences and engineering
+    code: '721'
+    parent_id: 4982
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4984
+  fields:
+    standard: 4
+    level: 4
+    label: Research and experimental development on natural sciences and engineering
+    code: '7210'
+    parent_id: 4983
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4985
+  fields:
+    standard: 4
+    level: 3
+    label: Research and experimental development on social sciences and humanities
+    code: '722'
+    parent_id: 4982
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4986
+  fields:
+    standard: 4
+    level: 4
+    label: Research and experimental development on social sciences and humanities
+    code: '7220'
+    parent_id: 4985
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4987
+  fields:
+    standard: 4
+    level: 2
+    label: Advertising and market research
+    code: '73'
+    parent_id: 4966
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4988
+  fields:
+    standard: 4
+    level: 3
+    label: Advertising
+    code: '731'
+    parent_id: 4987
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4989
+  fields:
+    standard: 4
+    level: 4
+    label: Advertising
+    code: '7310'
+    parent_id: 4988
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4990
+  fields:
+    standard: 4
+    level: 3
+    label: Market research and public opinion polling
+    code: '732'
+    parent_id: 4987
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4991
+  fields:
+    standard: 4
+    level: 4
+    label: Market research and public opinion polling
+    code: '7320'
+    parent_id: 4990
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4992
+  fields:
+    standard: 4
+    level: 2
+    label: Other professional, scientific and technical activities
+    code: '74'
+    parent_id: 4966
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4993
+  fields:
+    standard: 4
+    level: 3
+    label: Specialized design activities
+    code: '741'
+    parent_id: 4992
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4994
+  fields:
+    standard: 4
+    level: 4
+    label: Specialized design activities
+    code: '7410'
+    parent_id: 4993
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4995
+  fields:
+    standard: 4
+    level: 3
+    label: Photographic activities
+    code: '742'
+    parent_id: 4992
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4996
+  fields:
+    standard: 4
+    level: 4
+    label: Photographic activities
+    code: '7420'
+    parent_id: 4995
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4997
+  fields:
+    standard: 4
+    level: 3
+    label: Other professional, scientific and technical activities n.e.c.
+    code: '749'
+    parent_id: 4992
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4998
+  fields:
+    standard: 4
+    level: 4
+    label: Other professional, scientific and technical activities n.e.c.
+    code: '7490'
+    parent_id: 4997
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 4999
+  fields:
+    standard: 4
+    level: 2
+    label: Veterinary activities
+    code: '75'
+    parent_id: 4966
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 5000
+  fields:
+    standard: 4
+    level: 3
+    label: Veterinary activities
+    code: '750'
+    parent_id: 4999
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 5001
+  fields:
+    standard: 4
+    level: 4
+    label: Veterinary activities
+    code: '7500'
+    parent_id: 5000
+    top_parent_id: 4966
+- model: economy_sector_module.EconomySector
+  pk: 5002
+  fields:
+    standard: 4
+    level: 1
+    label: Administrative and support service activities
+    code: N
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5003
+  fields:
+    standard: 4
+    level: 2
+    label: Rental and leasing activities
+    code: '77'
+    parent_id: 5002
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5004
+  fields:
+    standard: 4
+    level: 3
+    label: Renting and leasing of motor vehicles
+    code: '771'
+    parent_id: 5003
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5005
+  fields:
+    standard: 4
+    level: 4
+    label: Renting and leasing of motor vehicles
+    code: '7710'
+    parent_id: 5004
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5006
+  fields:
+    standard: 4
+    level: 3
+    label: Renting and leasing of personal and household goods
+    code: '772'
+    parent_id: 5003
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5007
+  fields:
+    standard: 4
+    level: 4
+    label: Renting and leasing of recreational and sports goods
+    code: '7721'
+    parent_id: 5006
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5008
+  fields:
+    standard: 4
+    level: 4
+    label: Renting of video tapes and disks
+    code: '7722'
+    parent_id: 5006
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5009
+  fields:
+    standard: 4
+    level: 4
+    label: Renting and leasing of other personal and household goods
+    code: '7729'
+    parent_id: 5006
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5010
+  fields:
+    standard: 4
+    level: 3
+    label: Renting and leasing of other machinery, equipment and tangible goods
+    code: '773'
+    parent_id: 5003
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5011
+  fields:
+    standard: 4
+    level: 4
+    label: Renting and leasing of other machinery, equipment and tangible goods
+    code: '7730'
+    parent_id: 5010
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5012
+  fields:
+    standard: 4
+    level: 3
+    label: Leasing of intellectual property and similar products, except copyrighted
+      works
+    code: '774'
+    parent_id: 5003
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5013
+  fields:
+    standard: 4
+    level: 4
+    label: Leasing of intellectual property and similar products, except copyrighted
+      works
+    code: '7740'
+    parent_id: 5012
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5014
+  fields:
+    standard: 4
+    level: 2
+    label: Employment activities
+    code: '78'
+    parent_id: 5002
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5015
+  fields:
+    standard: 4
+    level: 3
+    label: Activities of employment placement agencies
+    code: '781'
+    parent_id: 5014
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5016
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of employment placement agencies
+    code: '7810'
+    parent_id: 5015
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5017
+  fields:
+    standard: 4
+    level: 3
+    label: Temporary employment agency activities
+    code: '782'
+    parent_id: 5014
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5018
+  fields:
+    standard: 4
+    level: 4
+    label: Temporary employment agency activities
+    code: '7820'
+    parent_id: 5017
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5019
+  fields:
+    standard: 4
+    level: 3
+    label: Other human resources provision
+    code: '783'
+    parent_id: 5014
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5020
+  fields:
+    standard: 4
+    level: 4
+    label: Other human resources provision
+    code: '7830'
+    parent_id: 5019
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5021
+  fields:
+    standard: 4
+    level: 2
+    label: Travel agency, tour operator, reservation service and related activities
+    code: '79'
+    parent_id: 5002
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5022
+  fields:
+    standard: 4
+    level: 3
+    label: Travel agency and tour operator activities
+    code: '791'
+    parent_id: 5021
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5023
+  fields:
+    standard: 4
+    level: 4
+    label: Travel agency activities
+    code: '7911'
+    parent_id: 5022
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5024
+  fields:
+    standard: 4
+    level: 4
+    label: Tour operator activities
+    code: '7912'
+    parent_id: 5022
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5025
+  fields:
+    standard: 4
+    level: 3
+    label: Other reservation service and related activities
+    code: '799'
+    parent_id: 5021
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5026
+  fields:
+    standard: 4
+    level: 4
+    label: Other reservation service and related activities
+    code: '7990'
+    parent_id: 5025
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5027
+  fields:
+    standard: 4
+    level: 2
+    label: Security and investigation activities
+    code: '80'
+    parent_id: 5002
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5028
+  fields:
+    standard: 4
+    level: 3
+    label: Private security activities
+    code: '801'
+    parent_id: 5027
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5029
+  fields:
+    standard: 4
+    level: 4
+    label: Private security activities
+    code: '8010'
+    parent_id: 5028
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5030
+  fields:
+    standard: 4
+    level: 3
+    label: Security systems service activities
+    code: '802'
+    parent_id: 5027
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5031
+  fields:
+    standard: 4
+    level: 4
+    label: Security systems service activities
+    code: '8020'
+    parent_id: 5030
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5032
+  fields:
+    standard: 4
+    level: 3
+    label: Investigation activities
+    code: '803'
+    parent_id: 5027
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5033
+  fields:
+    standard: 4
+    level: 4
+    label: Investigation activities
+    code: '8030'
+    parent_id: 5032
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5034
+  fields:
+    standard: 4
+    level: 2
+    label: Services to buildings and landscape activities
+    code: '81'
+    parent_id: 5002
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5035
+  fields:
+    standard: 4
+    level: 3
+    label: Combined facilities support activities
+    code: '811'
+    parent_id: 5034
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5036
+  fields:
+    standard: 4
+    level: 4
+    label: Combined facilities support activities
+    code: '8110'
+    parent_id: 5035
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5037
+  fields:
+    standard: 4
+    level: 3
+    label: Cleaning activities
+    code: '812'
+    parent_id: 5034
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5038
+  fields:
+    standard: 4
+    level: 4
+    label: General cleaning of buildings
+    code: '8121'
+    parent_id: 5037
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5039
+  fields:
+    standard: 4
+    level: 4
+    label: Other building and industrial cleaning activities
+    code: '8129'
+    parent_id: 5037
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5040
+  fields:
+    standard: 4
+    level: 3
+    label: Landscape care and maintenance service activities
+    code: '813'
+    parent_id: 5034
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5041
+  fields:
+    standard: 4
+    level: 4
+    label: Landscape care and maintenance service activities
+    code: '8130'
+    parent_id: 5040
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5042
+  fields:
+    standard: 4
+    level: 2
+    label: Office administrative, office support and other business support activities
+    code: '82'
+    parent_id: 5002
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5043
+  fields:
+    standard: 4
+    level: 3
+    label: Office administrative and support activities
+    code: '821'
+    parent_id: 5042
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5044
+  fields:
+    standard: 4
+    level: 4
+    label: Combined office administrative service activities
+    code: '8211'
+    parent_id: 5043
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5045
+  fields:
+    standard: 4
+    level: 4
+    label: Photocopying, document preparation and other specialized office support
+      activities
+    code: '8219'
+    parent_id: 5043
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5046
+  fields:
+    standard: 4
+    level: 3
+    label: Activities of call centres
+    code: '822'
+    parent_id: 5042
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5047
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of call centres
+    code: '8220'
+    parent_id: 5046
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5048
+  fields:
+    standard: 4
+    level: 3
+    label: Organization of conventions and trade shows
+    code: '823'
+    parent_id: 5042
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5049
+  fields:
+    standard: 4
+    level: 4
+    label: Organization of conventions and trade shows
+    code: '8230'
+    parent_id: 5048
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5050
+  fields:
+    standard: 4
+    level: 3
+    label: Business support service activities n.e.c.
+    code: '829'
+    parent_id: 5042
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5051
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of collection agencies and credit bureaus
+    code: '8291'
+    parent_id: 5050
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5052
+  fields:
+    standard: 4
+    level: 4
+    label: Packaging activities
+    code: '8292'
+    parent_id: 5050
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5053
+  fields:
+    standard: 4
+    level: 4
+    label: Other business support service activities n.e.c.
+    code: '8299'
+    parent_id: 5050
+    top_parent_id: 5002
+- model: economy_sector_module.EconomySector
+  pk: 5054
+  fields:
+    standard: 4
+    level: 1
+    label: Public administration and defence; compulsory social security
+    code: O
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5055
+  fields:
+    standard: 4
+    level: 2
+    label: Public administration and defence; compulsory social security
+    code: '84'
+    parent_id: 5054
+    top_parent_id: 5054
+- model: economy_sector_module.EconomySector
+  pk: 5056
+  fields:
+    standard: 4
+    level: 3
+    label: Administration of the State and the economic and social policy of the community
+    code: '841'
+    parent_id: 5055
+    top_parent_id: 5054
+- model: economy_sector_module.EconomySector
+  pk: 5057
+  fields:
+    standard: 4
+    level: 4
+    label: General public administration activities
+    code: '8411'
+    parent_id: 5056
+    top_parent_id: 5054
+- model: economy_sector_module.EconomySector
+  pk: 5058
+  fields:
+    standard: 4
+    level: 4
+    label: Regulation of the activities of providing health care, education, cultural
+      services and other social services, excluding social security
+    code: '8412'
+    parent_id: 5056
+    top_parent_id: 5054
+- model: economy_sector_module.EconomySector
+  pk: 5059
+  fields:
+    standard: 4
+    level: 4
+    label: Regulation of and contribution to more efficient operation of businesses
+    code: '8413'
+    parent_id: 5056
+    top_parent_id: 5054
+- model: economy_sector_module.EconomySector
+  pk: 5060
+  fields:
+    standard: 4
+    level: 3
+    label: Provision of services to the community as a whole
+    code: '842'
+    parent_id: 5055
+    top_parent_id: 5054
+- model: economy_sector_module.EconomySector
+  pk: 5061
+  fields:
+    standard: 4
+    level: 4
+    label: Foreign affairs
+    code: '8421'
+    parent_id: 5060
+    top_parent_id: 5054
+- model: economy_sector_module.EconomySector
+  pk: 5062
+  fields:
+    standard: 4
+    level: 4
+    label: Defence activities
+    code: '8422'
+    parent_id: 5060
+    top_parent_id: 5054
+- model: economy_sector_module.EconomySector
+  pk: 5063
+  fields:
+    standard: 4
+    level: 4
+    label: Public order and safety activities
+    code: '8423'
+    parent_id: 5060
+    top_parent_id: 5054
+- model: economy_sector_module.EconomySector
+  pk: 5064
+  fields:
+    standard: 4
+    level: 3
+    label: Compulsory social security activities
+    code: '843'
+    parent_id: 5055
+    top_parent_id: 5054
+- model: economy_sector_module.EconomySector
+  pk: 5065
+  fields:
+    standard: 4
+    level: 4
+    label: Compulsory social security activities
+    code: '8430'
+    parent_id: 5064
+    top_parent_id: 5054
+- model: economy_sector_module.EconomySector
+  pk: 5066
+  fields:
+    standard: 4
+    level: 1
+    label: Education
+    code: P
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5067
+  fields:
+    standard: 4
+    level: 2
+    label: Education
+    code: '85'
+    parent_id: 5066
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5068
+  fields:
+    standard: 4
+    level: 3
+    label: Pre-primary and primary education
+    code: '851'
+    parent_id: 5067
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5069
+  fields:
+    standard: 4
+    level: 4
+    label: Pre-primary and primary education
+    code: '8510'
+    parent_id: 5068
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5070
+  fields:
+    standard: 4
+    level: 3
+    label: Secondary education
+    code: '852'
+    parent_id: 5067
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5071
+  fields:
+    standard: 4
+    level: 4
+    label: General secondary education
+    code: '8521'
+    parent_id: 5070
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5072
+  fields:
+    standard: 4
+    level: 4
+    label: Technical and vocational secondary education
+    code: '8522'
+    parent_id: 5070
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5073
+  fields:
+    standard: 4
+    level: 3
+    label: Higher education
+    code: '853'
+    parent_id: 5067
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5074
+  fields:
+    standard: 4
+    level: 4
+    label: Higher education
+    code: '8530'
+    parent_id: 5073
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5075
+  fields:
+    standard: 4
+    level: 3
+    label: Other education
+    code: '854'
+    parent_id: 5067
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5076
+  fields:
+    standard: 4
+    level: 4
+    label: Sports and recreation education
+    code: '8541'
+    parent_id: 5075
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5077
+  fields:
+    standard: 4
+    level: 4
+    label: Cultural education
+    code: '8542'
+    parent_id: 5075
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5078
+  fields:
+    standard: 4
+    level: 4
+    label: Other education n.e.c.
+    code: '8549'
+    parent_id: 5075
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5079
+  fields:
+    standard: 4
+    level: 3
+    label: Educational support activities
+    code: '855'
+    parent_id: 5067
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5080
+  fields:
+    standard: 4
+    level: 4
+    label: Educational support activities
+    code: '8550'
+    parent_id: 5079
+    top_parent_id: 5066
+- model: economy_sector_module.EconomySector
+  pk: 5081
+  fields:
+    standard: 4
+    level: 1
+    label: Human health and social work activities
+    code: Q
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5082
+  fields:
+    standard: 4
+    level: 2
+    label: Human health activities
+    code: '86'
+    parent_id: 5081
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5083
+  fields:
+    standard: 4
+    level: 3
+    label: Hospital activities
+    code: '861'
+    parent_id: 5082
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5084
+  fields:
+    standard: 4
+    level: 4
+    label: Hospital activities
+    code: '8610'
+    parent_id: 5083
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5085
+  fields:
+    standard: 4
+    level: 3
+    label: Medical and dental practice activities
+    code: '862'
+    parent_id: 5082
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5086
+  fields:
+    standard: 4
+    level: 4
+    label: Medical and dental practice activities
+    code: '8620'
+    parent_id: 5085
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5087
+  fields:
+    standard: 4
+    level: 3
+    label: Other human health activities
+    code: '869'
+    parent_id: 5082
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5088
+  fields:
+    standard: 4
+    level: 4
+    label: Other human health activities
+    code: '8690'
+    parent_id: 5087
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5089
+  fields:
+    standard: 4
+    level: 2
+    label: Residential care activities
+    code: '87'
+    parent_id: 5081
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5090
+  fields:
+    standard: 4
+    level: 3
+    label: Residential nursing care facilities
+    code: '871'
+    parent_id: 5089
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5091
+  fields:
+    standard: 4
+    level: 4
+    label: Residential nursing care facilities
+    code: '8710'
+    parent_id: 5090
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5092
+  fields:
+    standard: 4
+    level: 3
+    label: Residential care activities for mental retardation, mental health and substance
+      abuse
+    code: '872'
+    parent_id: 5089
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5093
+  fields:
+    standard: 4
+    level: 4
+    label: Residential care activities for mental retardation, mental health and substance
+      abuse
+    code: '8720'
+    parent_id: 5092
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5094
+  fields:
+    standard: 4
+    level: 3
+    label: Residential care activities for the elderly and disabled
+    code: '873'
+    parent_id: 5089
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5095
+  fields:
+    standard: 4
+    level: 4
+    label: Residential care activities for the elderly and disabled
+    code: '8730'
+    parent_id: 5094
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5096
+  fields:
+    standard: 4
+    level: 3
+    label: Other residential care activities
+    code: '879'
+    parent_id: 5089
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5097
+  fields:
+    standard: 4
+    level: 4
+    label: Other residential care activities
+    code: '8790'
+    parent_id: 5096
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5098
+  fields:
+    standard: 4
+    level: 2
+    label: Social work activities without accommodation
+    code: '88'
+    parent_id: 5081
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5099
+  fields:
+    standard: 4
+    level: 3
+    label: Social work activities without accommodation for the elderly and disabled
+    code: '881'
+    parent_id: 5098
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5100
+  fields:
+    standard: 4
+    level: 4
+    label: Social work activities without accommodation for the elderly and disabled
+    code: '8810'
+    parent_id: 5099
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5101
+  fields:
+    standard: 4
+    level: 3
+    label: Other social work activities without accommodation
+    code: '889'
+    parent_id: 5098
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5102
+  fields:
+    standard: 4
+    level: 4
+    label: Other social work activities without accommodation
+    code: '8890'
+    parent_id: 5101
+    top_parent_id: 5081
+- model: economy_sector_module.EconomySector
+  pk: 5103
+  fields:
+    standard: 4
+    level: 1
+    label: Arts, entertainment and recreation
+    code: R
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5104
+  fields:
+    standard: 4
+    level: 2
+    label: Creative, arts and entertainment activities
+    code: '90'
+    parent_id: 5103
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5105
+  fields:
+    standard: 4
+    level: 3
+    label: Creative, arts and entertainment activities
+    code: '900'
+    parent_id: 5104
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5106
+  fields:
+    standard: 4
+    level: 4
+    label: Creative, arts and entertainment activities
+    code: '9000'
+    parent_id: 5105
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5107
+  fields:
+    standard: 4
+    level: 2
+    label: Libraries, archives, museums and other cultural activities
+    code: '91'
+    parent_id: 5103
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5108
+  fields:
+    standard: 4
+    level: 3
+    label: Libraries, archives, museums and other cultural activities
+    code: '910'
+    parent_id: 5107
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5109
+  fields:
+    standard: 4
+    level: 4
+    label: Library and archives activities
+    code: '9101'
+    parent_id: 5108
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5110
+  fields:
+    standard: 4
+    level: 4
+    label: Museums activities and operation of historical sites and buildings
+    code: '9102'
+    parent_id: 5108
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5111
+  fields:
+    standard: 4
+    level: 4
+    label: Botanical and zoological gardens and nature reserves activities
+    code: '9103'
+    parent_id: 5108
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5112
+  fields:
+    standard: 4
+    level: 2
+    label: Gambling and betting activities
+    code: '92'
+    parent_id: 5103
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5113
+  fields:
+    standard: 4
+    level: 3
+    label: Gambling and betting activities
+    code: '920'
+    parent_id: 5112
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5114
+  fields:
+    standard: 4
+    level: 4
+    label: Gambling and betting activities
+    code: '9200'
+    parent_id: 5113
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5115
+  fields:
+    standard: 4
+    level: 2
+    label: Sports activities and amusement and recreation activities
+    code: '93'
+    parent_id: 5103
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5116
+  fields:
+    standard: 4
+    level: 3
+    label: Sports activities
+    code: '931'
+    parent_id: 5115
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5117
+  fields:
+    standard: 4
+    level: 4
+    label: Operation of sports facilities
+    code: '9311'
+    parent_id: 5116
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5118
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of sports clubs
+    code: '9312'
+    parent_id: 5116
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5119
+  fields:
+    standard: 4
+    level: 4
+    label: Other sports activities
+    code: '9319'
+    parent_id: 5116
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5120
+  fields:
+    standard: 4
+    level: 3
+    label: Other amusement and recreation activities
+    code: '932'
+    parent_id: 5115
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5121
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of amusement parks and theme parks
+    code: '9321'
+    parent_id: 5120
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5122
+  fields:
+    standard: 4
+    level: 4
+    label: Other amusement and recreation activities n.e.c.
+    code: '9329'
+    parent_id: 5120
+    top_parent_id: 5103
+- model: economy_sector_module.EconomySector
+  pk: 5123
+  fields:
+    standard: 4
+    level: 1
+    label: Other service activities
+    code: S
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5124
+  fields:
+    standard: 4
+    level: 2
+    label: Activities of membership organizations
+    code: '94'
+    parent_id: 5123
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5125
+  fields:
+    standard: 4
+    level: 3
+    label: Activities of business, employers and professional membership organizations
+    code: '941'
+    parent_id: 5124
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5126
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of business and employers membership organizations
+    code: '9411'
+    parent_id: 5125
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5127
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of professional membership organizations
+    code: '9412'
+    parent_id: 5125
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5128
+  fields:
+    standard: 4
+    level: 3
+    label: Activities of trade unions
+    code: '942'
+    parent_id: 5124
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5129
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of trade unions
+    code: '9420'
+    parent_id: 5128
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5130
+  fields:
+    standard: 4
+    level: 3
+    label: Activities of other membership organizations
+    code: '949'
+    parent_id: 5124
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5131
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of religious organizations
+    code: '9491'
+    parent_id: 5130
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5132
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of political organizations
+    code: '9492'
+    parent_id: 5130
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5133
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of other membership organizations n.e.c.
+    code: '9499'
+    parent_id: 5130
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5134
+  fields:
+    standard: 4
+    level: 2
+    label: Repair of computers and personal and household goods
+    code: '95'
+    parent_id: 5123
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5135
+  fields:
+    standard: 4
+    level: 3
+    label: Repair of computers and communication equipment
+    code: '951'
+    parent_id: 5134
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5136
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of computers and peripheral equipment
+    code: '9511'
+    parent_id: 5135
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5137
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of communication equipment
+    code: '9512'
+    parent_id: 5135
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5138
+  fields:
+    standard: 4
+    level: 3
+    label: Repair of personal and household goods
+    code: '952'
+    parent_id: 5134
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5139
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of consumer electronics
+    code: '9521'
+    parent_id: 5138
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5140
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of household appliances and home and garden equipment
+    code: '9522'
+    parent_id: 5138
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5141
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of footwear and leather goods
+    code: '9523'
+    parent_id: 5138
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5142
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of furniture and home furnishings
+    code: '9524'
+    parent_id: 5138
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5143
+  fields:
+    standard: 4
+    level: 4
+    label: Repair of other personal and household goods
+    code: '9529'
+    parent_id: 5138
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5144
+  fields:
+    standard: 4
+    level: 2
+    label: Other personal service activities
+    code: '96'
+    parent_id: 5123
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5145
+  fields:
+    standard: 4
+    level: 3
+    label: Other personal service activities
+    code: '960'
+    parent_id: 5144
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5146
+  fields:
+    standard: 4
+    level: 4
+    label: Washing and (dry-) cleaning of textile and fur products
+    code: '9601'
+    parent_id: 5145
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5147
+  fields:
+    standard: 4
+    level: 4
+    label: Hairdressing and other beauty treatment
+    code: '9602'
+    parent_id: 5145
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5148
+  fields:
+    standard: 4
+    level: 4
+    label: Funeral and related activities
+    code: '9603'
+    parent_id: 5145
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5149
+  fields:
+    standard: 4
+    level: 4
+    label: Other personal service activities n.e.c.
+    code: '9609'
+    parent_id: 5145
+    top_parent_id: 5123
+- model: economy_sector_module.EconomySector
+  pk: 5150
+  fields:
+    standard: 4
+    level: 1
+    label: Activities of households as employers; undifferentiated goods- and services-producing
+      activities of households for own use
+    code: T
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5151
+  fields:
+    standard: 4
+    level: 2
+    label: Activities of households as employers of domestic personnel
+    code: '97'
+    parent_id: 5150
+    top_parent_id: 5150
+- model: economy_sector_module.EconomySector
+  pk: 5152
+  fields:
+    standard: 4
+    level: 3
+    label: Activities of households as employers of domestic personnel
+    code: '970'
+    parent_id: 5151
+    top_parent_id: 5150
+- model: economy_sector_module.EconomySector
+  pk: 5153
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of households as employers of domestic personnel
+    code: '9700'
+    parent_id: 5152
+    top_parent_id: 5150
+- model: economy_sector_module.EconomySector
+  pk: 5154
+  fields:
+    standard: 4
+    level: 2
+    label: Undifferentiated goods- and services-producing activities of private households
+      for own use
+    code: '98'
+    parent_id: 5150
+    top_parent_id: 5150
+- model: economy_sector_module.EconomySector
+  pk: 5155
+  fields:
+    standard: 4
+    level: 3
+    label: Undifferentiated goods-producing activities of private households for own
+      use
+    code: '981'
+    parent_id: 5154
+    top_parent_id: 5150
+- model: economy_sector_module.EconomySector
+  pk: 5156
+  fields:
+    standard: 4
+    level: 4
+    label: Undifferentiated goods-producing activities of private households for own
+      use
+    code: '9810'
+    parent_id: 5155
+    top_parent_id: 5150
+- model: economy_sector_module.EconomySector
+  pk: 5157
+  fields:
+    standard: 4
+    level: 3
+    label: Undifferentiated service-producing activities of private households for
+      own use
+    code: '982'
+    parent_id: 5154
+    top_parent_id: 5150
+- model: economy_sector_module.EconomySector
+  pk: 5158
+  fields:
+    standard: 4
+    level: 4
+    label: Undifferentiated service-producing activities of private households for
+      own use
+    code: '9820'
+    parent_id: 5157
+    top_parent_id: 5150
+- model: economy_sector_module.EconomySector
+  pk: 5159
+  fields:
+    standard: 4
+    level: 1
+    label: Activities of extraterritorial organizations and bodies
+    code: U
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5160
+  fields:
+    standard: 4
+    level: 2
+    label: Activities of extraterritorial organizations and bodies
+    code: '99'
+    parent_id: 5159
+    top_parent_id: 5159
+- model: economy_sector_module.EconomySector
+  pk: 5161
+  fields:
+    standard: 4
+    level: 3
+    label: Activities of extraterritorial organizations and bodies
+    code: '990'
+    parent_id: 5160
+    top_parent_id: 5159
+- model: economy_sector_module.EconomySector
+  pk: 5162
+  fields:
+    standard: 4
+    level: 4
+    label: Activities of extraterritorial organizations and bodies
+    code: '9900'
+    parent_id: 5161
+    top_parent_id: 5159
