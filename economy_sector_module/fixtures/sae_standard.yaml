@@ -1,0 +1,283 @@
+- model: economy_sector_module.EconomySector
+  pk: 5894
+  fields:
+    standard: 7
+    level: 1
+    label: Amministrazioni centrali ed altre amministrazioni
+    code: '101'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5895
+  fields:
+    standard: 7
+    level: 1
+    label: Amministrazioni locali
+    code: '102'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5896
+  fields:
+    standard: 7
+    level: 1
+    label: Servizi sanitari pubblici
+    code: '103'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5897
+  fields:
+    standard: 7
+    level: 1
+    label: 'Servizi assistenziali, ricreativi e culturali pubblici '
+    code: '104'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5898
+  fields:
+    standard: 7
+    level: 1
+    label: Imprese di assicurazione e fondi pensione
+    code: '200'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5899
+  fields:
+    standard: 7
+    level: 1
+    label: Sistema bancario
+    code: '310'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5900
+  fields:
+    standard: 7
+    level: 1
+    label: Intermediari finanziari
+    code: '311'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5901
+  fields:
+    standard: 7
+    level: 1
+    label: Altri intermediari finanziari
+    code: '312'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5902
+  fields:
+    standard: 7
+    level: 1
+    label: Agricoltura
+    code: '410'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5903
+  fields:
+    standard: 7
+    level: 1
+    label: Industria mineraria, energetica, petrolchimica e siderurgica
+    code: '411'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5904
+  fields:
+    standard: 7
+    level: 1
+    label: Edilizia
+    code: '412'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5905
+  fields:
+    standard: 7
+    level: 1
+    label: Fabbricazione di macchine e apparecchiature
+    code: '413'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5906
+  fields:
+    standard: 7
+    level: 1
+    label: Industria alimentare
+    code: '414'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5907
+  fields:
+    standard: 7
+    level: 1
+    label: Tessile
+    code: '415'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5908
+  fields:
+    standard: 7
+    level: 1
+    label: Altri prodotti industriali
+    code: '416'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5909
+  fields:
+    standard: 7
+    level: 1
+    label: Commercio all'ingrosso
+    code: '510'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5910
+  fields:
+    standard: 7
+    level: 1
+    label: Commercio al minuto
+    code: '511'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5911
+  fields:
+    standard: 7
+    level: 1
+    label: Settore alberghiero e della ristorazione
+    code: '512'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5912
+  fields:
+    standard: 7
+    level: 1
+    label: Servizi dei trasporti
+    code: '513'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5913
+  fields:
+    standard: 7
+    level: 1
+    label: Servizi di locazione immobiliare e ausiliari finanziari
+    code: '514'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5914
+  fields:
+    standard: 7
+    level: 1
+    label: Servizi connessi al trattamento dei rifiuti
+    code: '515'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5915
+  fields:
+    standard: 7
+    level: 1
+    label: Servizi sanitari
+    code: '516'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5916
+  fields:
+    standard: 7
+    level: 1
+    label: Altri servizi destinabili alla vendita
+    code: '517'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5917
+  fields:
+    standard: 7
+    level: 1
+    label: Famiglie consumatrici
+    code: '600'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5918
+  fields:
+    standard: 7
+    level: 1
+    label: Famiglie produttrici
+    code: '601'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5919
+  fields:
+    standard: 7
+    level: 1
+    label: 'RESTO DEL MONDO
+
+      Societa non finanziarie, famiglie
+
+      e amministrazioni pubbliche'
+    code: '711'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5920
+  fields:
+    standard: 7
+    level: 1
+    label: RESTO DEL MONDO Societa bancarie
+    code: '712'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5921
+  fields:
+    standard: 7
+    level: 1
+    label: RESTO DEL MONDO Societa finanziarie
+    code: '713'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5922
+  fields:
+    standard: 7
+    level: 1
+    label: Altri
+    code: '811'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5923
+  fields:
+    standard: 7
+    level: 1
+    label: Settore non-profit
+    code: '812'
+    parent_id: null
+    top_parent_id: null
+- model: economy_sector_module.EconomySector
+  pk: 5924
+  fields:
+    standard: 7
+    level: 1
+    label: Non classificato
+    code: '999'
+    parent_id: null
+    top_parent_id: null
