@@ -6,7 +6,6 @@ fixtures = [
     "initial_data/ateco_standard.yaml",
     "initial_data/gics_standard.yaml",
     "initial_data/isic_standard.yaml",
-    "sae_standard.yaml",
 ]
 
 
