@@ -1,6 +1,7 @@
+from django.core.exceptions import ValidationError
 from django.db import models
 
-from economy_sector_module.utils import STANDARDS
+from economy_sector_module.utils import STANDARDS, get_or_none
 
 
 class EconomySector(models.Model):
@@ -16,6 +17,22 @@ class EconomySector(models.Model):
 
     class Meta:
         unique_together = [('standard', 'code')]
+
+    def get_corresponding_relation(self, standard):
+        """
+        Find the corresponding economy sector of a given standard.
+
+        Args:
+            standard: The standard with which we search the corresponding sector.
+        """
+        return get_or_none(
+            EconomySectorRelation.objects,
+            from_sector=self,
+            to_standard=standard
+        )
+
+    def save(self, *args, **kwargs, ):
+        raise ValidationError("You can not create new economy sectors! Please use the prepared data!")
 
     def __str__(self):
         return f'{self.label}-{self.code}'
