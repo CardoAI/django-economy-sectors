@@ -3,7 +3,8 @@
   fields:
     standard: 7
     level: 1
-    label: Amministrazioni centrali ed altre amministrazioni
+    standard_label: Amministrazioni centrali ed altre amministrazioni
+    english_label: null
     code: '101'
     parent_id: null
     top_parent_id: null
@@ -12,7 +13,8 @@
   fields:
     standard: 7
     level: 1
-    label: Amministrazioni locali
+    standard_label: Amministrazioni locali
+    english_label: null
     code: '102'
     parent_id: null
     top_parent_id: null
@@ -21,7 +23,8 @@
   fields:
     standard: 7
     level: 1
-    label: Servizi sanitari pubblici
+    standard_label: Servizi sanitari pubblici
+    english_label: null
     code: '103'
     parent_id: null
     top_parent_id: null
@@ -30,7 +33,8 @@
   fields:
     standard: 7
     level: 1
-    label: 'Servizi assistenziali, ricreativi e culturali pubblici '
+    standard_label: 'Servizi assistenziali, ricreativi e culturali pubblici '
+    english_label: null
     code: '104'
     parent_id: null
     top_parent_id: null
@@ -39,7 +43,8 @@
   fields:
     standard: 7
     level: 1
-    label: Imprese di assicurazione e fondi pensione
+    standard_label: Imprese di assicurazione e fondi pensione
+    english_label: null
     code: '200'
     parent_id: null
     top_parent_id: null
@@ -48,7 +53,8 @@
   fields:
     standard: 7
     level: 1
-    label: Sistema bancario
+    standard_label: Sistema bancario
+    english_label: null
     code: '310'
     parent_id: null
     top_parent_id: null
@@ -57,7 +63,8 @@
   fields:
     standard: 7
     level: 1
-    label: Intermediari finanziari
+    standard_label: Intermediari finanziari
+    english_label: null
     code: '311'
     parent_id: null
     top_parent_id: null
@@ -66,7 +73,8 @@
   fields:
     standard: 7
     level: 1
-    label: Altri intermediari finanziari
+    standard_label: Altri intermediari finanziari
+    english_label: null
     code: '312'
     parent_id: null
     top_parent_id: null
@@ -75,7 +83,8 @@
   fields:
     standard: 7
     level: 1
-    label: Agricoltura
+    standard_label: Agricoltura
+    english_label: null
     code: '410'
     parent_id: null
     top_parent_id: null
@@ -84,7 +93,8 @@
   fields:
     standard: 7
     level: 1
-    label: Industria mineraria, energetica, petrolchimica e siderurgica
+    standard_label: Industria mineraria, energetica, petrolchimica e siderurgica
+    english_label: null
     code: '411'
     parent_id: null
     top_parent_id: null
@@ -93,7 +103,8 @@
   fields:
     standard: 7
     level: 1
-    label: Edilizia
+    standard_label: Edilizia
+    english_label: null
     code: '412'
     parent_id: null
     top_parent_id: null
@@ -102,7 +113,8 @@
   fields:
     standard: 7
     level: 1
-    label: Fabbricazione di macchine e apparecchiature
+    standard_label: Fabbricazione di macchine e apparecchiature
+    english_label: null
     code: '413'
     parent_id: null
     top_parent_id: null
@@ -111,7 +123,8 @@
   fields:
     standard: 7
     level: 1
-    label: Industria alimentare
+    standard_label: Industria alimentare
+    english_label: null
     code: '414'
     parent_id: null
     top_parent_id: null
@@ -120,7 +133,8 @@
   fields:
     standard: 7
     level: 1
-    label: Tessile
+    standard_label: Tessile
+    english_label: null
     code: '415'
     parent_id: null
     top_parent_id: null
@@ -129,7 +143,8 @@
   fields:
     standard: 7
     level: 1
-    label: Altri prodotti industriali
+    standard_label: Altri prodotti industriali
+    english_label: null
     code: '416'
     parent_id: null
     top_parent_id: null
@@ -138,7 +153,8 @@
   fields:
     standard: 7
     level: 1
-    label: Commercio all'ingrosso
+    standard_label: Commercio all'ingrosso
+    english_label: null
     code: '510'
     parent_id: null
     top_parent_id: null
@@ -147,7 +163,8 @@
   fields:
     standard: 7
     level: 1
-    label: Commercio al minuto
+    standard_label: Commercio al minuto
+    english_label: null
     code: '511'
     parent_id: null
     top_parent_id: null
@@ -156,7 +173,8 @@
   fields:
     standard: 7
     level: 1
-    label: Settore alberghiero e della ristorazione
+    standard_label: Settore alberghiero e della ristorazione
+    english_label: null
     code: '512'
     parent_id: null
     top_parent_id: null
@@ -165,7 +183,8 @@
   fields:
     standard: 7
     level: 1
-    label: Servizi dei trasporti
+    standard_label: Servizi dei trasporti
+    english_label: null
     code: '513'
     parent_id: null
     top_parent_id: null
@@ -174,7 +193,8 @@
   fields:
     standard: 7
     level: 1
-    label: Servizi di locazione immobiliare e ausiliari finanziari
+    standard_label: Servizi di locazione immobiliare e ausiliari finanziari
+    english_label: null
     code: '514'
     parent_id: null
     top_parent_id: null
@@ -183,7 +203,8 @@
   fields:
     standard: 7
     level: 1
-    label: Servizi connessi al trattamento dei rifiuti
+    standard_label: Servizi connessi al trattamento dei rifiuti
+    english_label: null
     code: '515'
     parent_id: null
     top_parent_id: null
@@ -192,7 +213,8 @@
   fields:
     standard: 7
     level: 1
-    label: Servizi sanitari
+    standard_label: Servizi sanitari
+    english_label: null
     code: '516'
     parent_id: null
     top_parent_id: null
@@ -201,7 +223,8 @@
   fields:
     standard: 7
     level: 1
-    label: Altri servizi destinabili alla vendita
+    standard_label: Altri servizi destinabili alla vendita
+    english_label: null
     code: '517'
     parent_id: null
     top_parent_id: null
@@ -210,7 +233,8 @@
   fields:
     standard: 7
     level: 1
-    label: Famiglie consumatrici
+    standard_label: Famiglie consumatrici
+    english_label: null
     code: '600'
     parent_id: null
     top_parent_id: null
@@ -219,7 +243,8 @@
   fields:
     standard: 7
     level: 1
-    label: Famiglie produttrici
+    standard_label: Famiglie produttrici
+    english_label: null
     code: '601'
     parent_id: null
     top_parent_id: null
@@ -228,11 +253,12 @@
   fields:
     standard: 7
     level: 1
-    label: 'RESTO DEL MONDO
+    standard_label: 'RESTO DEL MONDO
 
       Societa non finanziarie, famiglie
 
       e amministrazioni pubbliche'
+    english_label: null
     code: '711'
     parent_id: null
     top_parent_id: null
@@ -241,7 +267,8 @@
   fields:
     standard: 7
     level: 1
-    label: RESTO DEL MONDO Societa bancarie
+    standard_label: RESTO DEL MONDO Societa bancarie
+    english_label: null
     code: '712'
     parent_id: null
     top_parent_id: null
@@ -250,7 +277,8 @@
   fields:
     standard: 7
     level: 1
-    label: RESTO DEL MONDO Societa finanziarie
+    standard_label: RESTO DEL MONDO Societa finanziarie
+    english_label: null
     code: '713'
     parent_id: null
     top_parent_id: null
@@ -259,7 +287,8 @@
   fields:
     standard: 7
     level: 1
-    label: Altri
+    standard_label: Altri
+    english_label: null
     code: '811'
     parent_id: null
     top_parent_id: null
@@ -268,7 +297,8 @@
   fields:
     standard: 7
     level: 1
-    label: Settore non-profit
+    standard_label: Settore non-profit
+    english_label: null
     code: '812'
     parent_id: null
     top_parent_id: null
@@ -277,7 +307,8 @@
   fields:
     standard: 7
     level: 1
-    label: Non classificato
+    standard_label: Non classificato
+    english_label: null
     code: '999'
     parent_id: null
     top_parent_id: null

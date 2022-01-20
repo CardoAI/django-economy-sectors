@@ -8,7 +8,8 @@ class EconomySector(models.Model):
     standard = models.IntegerField(choices=STANDARDS, default=STANDARDS.unspecified,
                                    help_text="The standard this code is defined by.")
     level = models.PositiveSmallIntegerField()
-    label = models.CharField(max_length=256)
+    standard_label = models.CharField(max_length=256)
+    english_label = models.CharField(max_length=256, null=True)
     code = models.CharField(max_length=16, help_text="Code as defined by a standard.")
     parent = models.ForeignKey(to='self', related_name='children', null=True,
                                on_delete=models.CASCADE)

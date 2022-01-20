@@ -8,9 +8,9 @@ STANDARDS = Choices(
     (2, "ateco", "ATECO"),
     (3, "gics", "GICS"),
     (4, "isic", "ISIC"),  # rev4
-    (5, "naics", "NAICS"),  # 17 Todo-Ask Marco which one we going to use!
-    (6, "sic", "SIC"),  # Todo-fill the data
-    (7, "sae", "SAE"),  # Todo-fill the data
+    (5, "naics", "NAICS"),  # 2022
+    (6, "sic", "SIC"),
+    (7, "sae", "SAE"),
 )
 
 def get_or_none(queryset: QuerySet, *args, **kwargs):
