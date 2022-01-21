@@ -27,11 +27,13 @@ def get_or_none(queryset: QuerySet, *args, **kwargs):
         return None
 
 
-def get_reader_from_remote(remote_path):
+def get_csv_reader_from_remote(remote_path: str):
+    """
+    Read a csv file from a remote server and return a DictReader object
+    """
     try:
         with urlopen(remote_path) as file:
-            f_bytes = file.read().decode()
-            mycsv = io.StringIO(f_bytes)
+            mycsv = io.StringIO(file.read().decode())
             return csv.DictReader(mycsv)
     except HTTPError:
         pass
@@ -39,15 +41,18 @@ def get_reader_from_remote(remote_path):
 
 @transaction.atomic()
 def bulk_create_update_from_csv(model, csv_reader: csv.DictReader, batch_size=500):
+    """
+    Function that creates 2 lists holding the objects that need to be created and the ones which
+    need to be updated while reading lines from a DictReader object.
+    """
     obj_to_be_created = []
     obj_to_be_updated = []
     _ids = set(model.objects.values_list('id', flat=True))
     for row in csv_reader:
-        _id = int(row.pop('id'))
-        if _id in _ids:
-            obj_to_be_updated.append(model(**row, id=_id))
+        if int(row['id']) in _ids:
+            obj_to_be_updated.append(model(**row))
         else:
-            obj_to_be_created.append(model(**row, id=_id))
+            obj_to_be_created.append(model(**row))
 
     csv_reader.fieldnames.remove('id')
     model.objects.bulk_update(obj_to_be_updated, fields=csv_reader.fieldnames,
