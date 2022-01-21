@@ -42,8 +42,9 @@ def get_csv_reader_from_remote(remote_path: str):
 @transaction.atomic()
 def bulk_create_update_from_csv(model, csv_reader: csv.DictReader, batch_size=500):
     """
-    Function that creates 2 lists holding the objects that need to be created and the ones which
-    need to be updated while reading lines from a DictReader object.
+    From 2 lists holding the objects that need to be created and the ones which
+    need to be updated while reading lines from a DictReader object we bulk_create() and
+    bulk_update() records from the csv.
     """
     obj_to_be_created = []
     obj_to_be_updated = []
