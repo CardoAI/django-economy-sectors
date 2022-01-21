@@ -38,7 +38,7 @@ def get_reader_from_remote(remote_path):
 
 
 @transaction.atomic()
-def bulk_create_update_from_csv(model, csv_reader, batch_size=500):
+def bulk_create_update_from_csv(model, csv_reader: csv.DictReader, batch_size=500):
     obj_to_be_created = []
     obj_to_be_updated = []
     _ids = set(model.objects.values_list('id', flat=True))
