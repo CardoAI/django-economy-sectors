@@ -2,7 +2,7 @@ from typing import Optional
 
 from django.db import models
 
-from economy_sector_module.utils import STANDARDS, get_or_none
+from economy_sectors.utils import STANDARDS, get_or_none
 
 
 class EconomySector(models.Model):

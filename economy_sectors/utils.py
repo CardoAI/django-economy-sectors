@@ -1,10 +1,9 @@
 import csv
 import io
-from urllib.error import HTTPError
 from urllib.request import urlopen
 
 from django.core.exceptions import ObjectDoesNotExist
-from django.db import transaction
+from django.db import transaction, models
 from django.db.models import QuerySet
 from model_utils import Choices
 
@@ -31,31 +30,35 @@ def get_csv_reader_from_remote(remote_path: str):
     """
     Read a csv file from a remote server and return a DictReader object
     """
-    try:
-        with urlopen(remote_path) as file:
-            mycsv = io.StringIO(file.read().decode())
-            return csv.DictReader(mycsv)
-    except HTTPError:
-        pass
+    with urlopen(remote_path) as file:
+        mycsv = io.StringIO(file.read().decode())
+        return csv.DictReader(mycsv)
 
 
 @transaction.atomic()
-def bulk_create_update_from_csv(model, csv_reader: csv.DictReader, batch_size=500):
+def bulk_create_update_from_csv(model: models.Model.__class__, csv_reader: csv.DictReader, batch_size=500):
     """
-    From 2 lists holding the objects that need to be created and the ones which
-    need to be updated while reading lines from a DictReader object we bulk_create() and
-    bulk_update() records from the csv.
+    1. Read model records from a given csv_reader and
+    2. Form two lists with objects to create and update
+    3. Use bulk_create and bulk_update to commit to the database
     """
-    obj_to_be_created = []
-    obj_to_be_updated = []
+    records_to_create = []
+    records_to_update = []
     _ids = set(model.objects.values_list('id', flat=True))
     for row in csv_reader:
         if int(row['id']) in _ids:
-            obj_to_be_updated.append(model(**row))
+            records_to_update.append(model(**row))
         else:
-            obj_to_be_created.append(model(**row))
+            records_to_create.append(model(**row))
 
     csv_reader.fieldnames.remove('id')
-    model.objects.bulk_update(obj_to_be_updated, fields=csv_reader.fieldnames,
-                              batch_size=batch_size)
-    model.objects.bulk_create(obj_to_be_created, batch_size=batch_size)
+
+    model.objects.bulk_create(
+        records_to_create,
+        batch_size=batch_size
+    )
+    model.objects.bulk_update(
+        records_to_update,
+        fields=csv_reader.fieldnames,
+        batch_size=batch_size
+    )

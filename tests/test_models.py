@@ -1,8 +1,8 @@
 import pytest
 from model_bakery import baker
 
-from economy_sector_module.models import EconomySector, EconomySectorRelation
-from economy_sector_module.utils import STANDARDS
+from economy_sectors.models import EconomySector, EconomySectorRelation
+from economy_sectors.utils import STANDARDS
 
 
 @pytest.mark.django_db

@@ -8,11 +8,11 @@ Quick start
 
     INSTALLED_APPS = [
         ...
-        'economy_sector_module',
+        'economy_sectors',
     ]
 
 2. Run ``python manage.py migrate`` to create the models.
 
-3. Run ``python manage.py load_initial_data`` to populate the database with the initial records.
+3. Run ``python manage.py load_standards_data`` to populate the database with the initial records.
 
-4. Run ``python manage.py load_relations_data`` to populate the database with the relationship between standards.
+4. Run ``python manage.py load_standards_relations`` to populate the database with the relationship between standards.
