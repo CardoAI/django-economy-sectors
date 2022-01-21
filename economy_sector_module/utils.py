@@ -13,6 +13,7 @@ STANDARDS = Choices(
     (7, "sae", "SAE"),
 )
 
+
 def get_or_none(queryset: QuerySet, *args, **kwargs):
     try:
         return queryset.get(*args, **kwargs)

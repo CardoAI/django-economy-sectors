@@ -1,32 +1,28 @@
 import pytest
-from django.core.exceptions import ValidationError
+from model_bakery import baker
 
-from economy_sector_module.models import EconomySector
+from economy_sector_module.models import EconomySector, EconomySectorRelation
 from economy_sector_module.utils import STANDARDS
 
 
 @pytest.mark.django_db
-def test_create_economy_sector_raises_error():
-    with pytest.raises(ValidationError):
-        EconomySector.objects.create(
-            level=1,
-            label="Test",
-            code="T1",
-            parent=None,
-            top_parent=None,
-        )
+def test_get_corresponding_sector_returns_correct_record():
+    nace_sector: EconomySector = baker.make('EconomySector', standard=STANDARDS.nace)
+    ateco_sector: EconomySector = baker.make('EconomySector', standard=STANDARDS.ateco)
+
+    EconomySectorRelation.objects.create(
+        from_sector=nace_sector,
+        to_standard=STANDARDS.ateco,
+        to_sector=ateco_sector
+    )
+
+    assert nace_sector.get_corresponding_sector(to_standard=STANDARDS.ateco) == ateco_sector, \
+        "Incorrect economy sector is returned!"
 
 
 @pytest.mark.django_db
-def test_get_corresponding_code_returns_correct_record(initial_data):
-    nace_level_1 = EconomySector.objects.get(code="A", standard=STANDARDS.nace)
-    nace_level_2 = EconomySector.objects.get(code="01", standard=STANDARDS.nace)
+def test_get_corresponding_sector_returns_none_when_relation_not_exists():
+    sector: EconomySector = baker.make('EconomySector', standard=STANDARDS.nace)
 
-    maped_ateco = EconomySector.objects.get(code="01", standard=STANDARDS.ateco)
-
-    assert nace_level_2.get_corresponding_relation(standard=STANDARDS.ateco).to_sector == maped_ateco, \
-        "Incorrect geography is returned!"
-
-    assert nace_level_1.get_corresponding_relation(standard=STANDARDS.gics) is None, \
-        "Incorrect geography is returned!"
-
+    assert sector.get_corresponding_sector(to_standard=STANDARDS.gics) is None, \
+        "Corresponding sector is returned, but relation does not exist!"

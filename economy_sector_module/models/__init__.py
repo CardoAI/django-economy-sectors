@@ -1,1 +1,1 @@
-from .economysector import EconomySector, EconomySectorRelation
+from .economy_sector import EconomySector, EconomySectorRelation
