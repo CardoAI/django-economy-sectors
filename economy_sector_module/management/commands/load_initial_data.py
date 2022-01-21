@@ -8,6 +8,7 @@ fixtures = [
     "isic_standard.yaml",
     "sic_standard.yaml",
     "sae_standard.yaml",
+    "naics_standard.yaml",
 ]
 
 

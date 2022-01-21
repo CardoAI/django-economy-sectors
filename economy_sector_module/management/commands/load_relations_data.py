@@ -6,6 +6,7 @@ fixtures = [
     "ateco_relations.yaml",
     "gics_relations.yaml",
     "isic_relations.yaml",
+    "naics_relations.yaml",
 ]
 
 
