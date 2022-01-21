@@ -1,6 +1,19 @@
-============================
-Django Economy Sector Module
-============================
+======================
+Django Economy Sectors
+======================
+
+This library allows the utilization of Economy Sectors, from different standards,
+as well as conversion between them.
+
+Supported standards:
+
+* NACE
+* ATECO
+* GICS
+* ISIC (rev4)
+* NAICS (2022)
+* SIC
+* SAE
 
 Quick start
 -----------
