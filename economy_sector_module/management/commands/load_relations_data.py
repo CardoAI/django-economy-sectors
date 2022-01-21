@@ -1,12 +1,15 @@
 from django.core.management.base import BaseCommand
-from django.core.management import call_command
 
-fixtures = [
-    "nace_relations.yaml",
-    "ateco_relations.yaml",
-    "gics_relations.yaml",
-    "isic_relations.yaml",
-    "naics_relations.yaml",
+from economy_sector_module.models import EconomySectorRelation
+from economy_sector_module.utils import get_reader_from_remote, bulk_create_update_from_csv
+
+ECONOMY_SECTOR_RELATIONS_FILE_PATHS = [
+    "https://package-files.s3.eu-central-1.amazonaws.com/django-economy-sectors/economy_sectors_relations/nace_relations.csv",
+    "https://package-files.s3.eu-central-1.amazonaws.com/django-economy-sectors/economy_sectors_relations/ateco_relations.csv",
+    "https://package-files.s3.eu-central-1.amazonaws.com/django-economy-sectors/economy_sectors_relations/gics_relations.csv",
+    "https://package-files.s3.eu-central-1.amazonaws.com/django-economy-sectors/economy_sectors_relations/isic_relations.csv",
+    "https://package-files.s3.eu-central-1.amazonaws.com/django-economy-sectors/economy_sectors_relations/naics_relations.csv",
+
 ]
 
 
@@ -14,6 +17,11 @@ class Command(BaseCommand):
     help = 'Load relations between different economy sector from fixtures into the database'
 
     def handle(self, **options):
-        for fixture in fixtures:
-            print(f"Loading fixture {fixture}")
-            call_command("loaddata", fixture)
+        print("Started...")
+        for remote_path in ECONOMY_SECTOR_RELATIONS_FILE_PATHS:
+            print("Loading csv from remote...")
+            reader = get_reader_from_remote(remote_path)
+            print("Preparing data to be created or updated...")
+            bulk_create_update_from_csv(model=EconomySectorRelation, csv_reader=reader)
+            print("Finished file...")
+        print("Finished")
