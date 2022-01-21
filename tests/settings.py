@@ -11,7 +11,7 @@ INSTALLED_APPS = (
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.sites",
-    "economy_sector_module"
+    "economy_sectors"
 )
 
 SECRET_KEY = "secret"
