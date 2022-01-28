@@ -17,7 +17,7 @@ Supported standards:
 
 Quick start
 -----------
-1. Add "geographical_module" to your INSTALLED_APPS setting like this::
+1. Add "economy_sectors" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
         ...
