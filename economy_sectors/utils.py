@@ -3,7 +3,7 @@ import io
 from urllib.request import urlopen
 
 from django.core.exceptions import ObjectDoesNotExist
-from django.db import transaction, models
+from django.db import models
 from django.db.models import QuerySet
 from model_utils import Choices
 
@@ -35,7 +35,6 @@ def get_csv_reader_from_remote(remote_path: str):
         return csv.DictReader(mycsv)
 
 
-@transaction.atomic()
 def bulk_create_update_from_csv(model: models.Model.__class__, csv_reader: csv.DictReader, batch_size=500):
     """
     1. Read model records from a given csv_reader and
