@@ -1,3 +1,4 @@
+from django.core.management import call_command
 from django.core.management.base import BaseCommand
 
 from economy_sectors.models import EconomySector
@@ -21,6 +22,7 @@ class Command(BaseCommand):
 
     def handle(self, **options):
         print("Started...")
+        call_command('loaddata', 'standards.yaml')
 
         for filename in ECONOMY_SECTOR_FILES:
             print(f"Processing {filename}...")
