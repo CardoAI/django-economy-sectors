@@ -1,0 +1,42 @@
+- model: economy_sectors.Standard
+  pk: 1
+  fields:
+    name: "NACE"
+    is_public: True
+
+- model: economy_sectors.Standard
+  pk: 2
+  fields:
+    name: "ATECO"
+    is_public: True
+
+- model: economy_sectors.Standard
+  pk: 3
+  fields:
+    name: "GICS"
+    is_public: True
+
+- model: economy_sectors.Standard
+  pk: 4
+  fields:
+    name: "ISIC"
+    is_public: True
+
+
+- model: economy_sectors.Standard
+  pk: 5
+  fields:
+    name: "NAICS"
+    is_public: True
+
+- model: economy_sectors.Standard
+  pk: 6
+  fields:
+    name: "SIC"
+    is_public: True
+
+- model: economy_sectors.Standard
+  pk: 7
+  fields:
+    name: "SAE"
+    is_public: True

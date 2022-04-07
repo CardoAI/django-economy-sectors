@@ -1,5 +1,6 @@
 import csv
 import io
+from typing import Literal
 from urllib.request import urlopen
 
 from django.core.exceptions import ObjectDoesNotExist
@@ -45,7 +46,8 @@ def bulk_create_update_from_csv(model: models.Model.__class__, csv_reader: csv.D
     records_to_update = []
     _ids = set(model.objects.values_list('id', flat=True))
     for row in csv_reader:
-        if int(row['id']) in _ids:
+
+        if (row['id'].isdigit() and int(row['id']) in _ids) or row['id'] in _ids:
             records_to_update.append(model(**row))
         else:
             records_to_create.append(model(**row))
