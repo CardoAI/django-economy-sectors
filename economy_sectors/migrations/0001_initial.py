@@ -14,6 +14,15 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
+            name='Standard',
+            fields=[
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('name', models.CharField(max_length=32, unique=True)),
+                ('is_public', models.BooleanField(default=True,
+                                                  help_text='Indicates whether or not the standard is public or for internal use')),
+            ],
+        ),
+        migrations.CreateModel(
             name='EconomySector',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
@@ -40,13 +49,5 @@ class Migration(migrations.Migration):
             options={
                 'unique_together': {('from_sector', 'to_standard', 'to_sector')},
             },
-        ),
-        migrations.CreateModel(
-            name='Standard',
-            fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=32, unique=True)),
-                ('is_public', models.BooleanField(default=True, help_text='Indicates whether or not the standard is public or for internal use')),
-            ],
         ),
     ]
